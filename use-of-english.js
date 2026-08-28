@@ -24,7 +24,9 @@ const useOfEnglishData = {
         {"sentence":"Checking your mobile phone frequently can easily become a habit, which some say can _____ us from more important tasks.","options":["DISTRACT","DISTURB","DISRUPT","DISTRIBUTE"],"answer":"DISTRACT","explanation":"La preposición clave es FROM: distract somebody FROM something (distraer de). Disturb nunca lleva from."},
         {"sentence":"Others believe that being able to _____ so much useful information so quickly makes modern life far more interesting.","options":["OBTAIN","CAPTURE","IMPORT","SEIZE"],"answer":"OBTAIN","explanation":"Colocación estándar de examen: obtain information (obtener / conseguir información)."},
         {"sentence":"The internet enables millions of people worldwide to access information about their family history without great _____.","options":["FEE","PRICE","CHARGE","EXPENSE"],"answer":"EXPENSE","explanation":"Colocación fija: without great expense / at great expense (sin gran coste o gasto)."},
-        {"sentence":"People who research their family history often _____ that it is a fascinating hobby.","options":["DESCRIBE","DEFINE","REMARK","REGARD"],"answer":"REMARK","explanation":"Remark that sirve para introducir una opinión completa con that. Describe y regard necesitan as (describe it as...)."}
+        {"sentence":"People who research their family history often _____ that it is a fascinating hobby.","options":["DESCRIBE","DEFINE","REMARK","REGARD"],"answer":"REMARK","explanation":"Remark that sirve para introducir una opinión completa con that. Describe y regard necesitan as (describe it as...)."},
+        {"sentence":"Research into students over a three-week period now appears to _____ this.","options":["ASSURE","CONFIRM","DEFEND","JUSTIFY"],"answer":"CONFIRM","explanation":"Confirm va seguido directamente del objeto (confirm this = confirmar esto). Assure necesita una persona detrás (assure someone = tranquilizar a alguien)."},
+        {"sentence":"The results were compared to the illnesses that the students had _____ from during the study.","options":["CAUGHT","AFFECTED","SUFFERED","EXPERIENCED"],"answer":"SUFFERED","explanation":"Preposición dependiente fija: SUFFER FROM (sufrir / padecer una enfermedad). Catch no lleva from (catch a cold)."}
     ],
     "part2": [
         {"sentence":"Datamac was the greatest machine in the world. Its business _____ facts: it accepted them, stored them and tested them.","answer":"WAS","explanation":"El sujeto es Its business (singular e incontable), por lo que en pasado el verbo to be es WAS."},
@@ -49,7 +51,11 @@ const useOfEnglishData = {
         {"sentence":"Young people find much to enjoy in Western Australia on _____ of its active outdoor lifestyle.","answer":"ACCOUNT","explanation":"Conector de causa fijo: ON ACCOUNT OF (debido a / a causa de)."},
         {"sentence":"I had never seen anyone riding a motorbike on one wheel, and I was _____ impressed that I went straight home and tried it.","answer":"SO","explanation":"Estructura fija de causa-consecuencia: SO + adjetivo + THAT (tan impresionado que...). Very nunca se usa con that."},
         {"sentence":"I was so impressed that I went straight home and taught _____ to do the same stunts.","answer":"MYSELF","explanation":"Pronombre reflexivo: cuando aprendes por tu cuenta, la acción recae sobre ti (teach myself = aprender de forma autodidacta)."},
-        {"sentence":"I have a degree in mechanical engineering, which helps me understand the physics _____ lies behind each stunt.","answer":"THAT","alternatives":["WHICH"],"explanation":"Pronombre relativo para cosas o conceptos abstractos: the physics THAT / WHICH lies behind (la física que hay detrás)."}
+        {"sentence":"I have a degree in mechanical engineering, which helps me understand the physics _____ lies behind each stunt.","answer":"THAT","alternatives":["WHICH"],"explanation":"Pronombre relativo para cosas o conceptos abstractos: the physics THAT / WHICH lies behind (la física que hay detrás)."},
+        {"sentence":"Music helped adults in pain, with an even higher figure _____ young people.","answer":"AMONG","alternatives":["FOR"],"explanation":"Para indicar un porcentaje o dato dentro de un grupo se usa AMONG (entre los jóvenes) o FOR (para los jóvenes)."},
+        {"sentence":"A remarkable two-thirds of those taking part _____ reported to have said music helped.","answer":"WERE","explanation":"Pasiva en pasado con sujeto plural (two-thirds of those taking part WERE reported... = se informó de que dos tercios...)."},
+        {"sentence":"The type of music played makes less difference than might _____ imagined.","answer":"BE","explanation":"Voz pasiva con modal: might BE + participio (might be imagined = de lo que cabría imaginar)."},
+        {"sentence":"Pop music, as _____ as it is fairly gentle and not too loud, helps deal with pain.","answer":"LONG","explanation":"Conector de condición imprescindible en B2: AS LONG AS (siempre y cuando / mientras que)."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -71,7 +77,13 @@ const useOfEnglishData = {
         {"sentence":"As a result, many _____ are very keen to supply sports equipment and clothing to schools.","base":"MANUFACTURE","answer":"MANUFACTURERS","explanation":"Se refiere a las empresas/personas que fabrican en plural: manufacturers (fabricantes)."},
         {"sentence":"There is, however, considerable _____ among parents about whether advertising in schools is actually a good idea.","base":"AGREE","answer":"DISAGREEMENT","explanation":"El conector however y la duda (whether) exigen significado negativo: disagreement (desacuerdo)."},
         {"sentence":"China is currently the largest _____ of garlic in the world, exporting thousands of tonnes every year.","base":"PRODUCT","answer":"PRODUCER","explanation":"El sustantivo para la persona o país que produce es producer (productor). Productor no existe en inglés."},
-        {"sentence":"Garlic helps fight coughs and colds. In _____ , some doctors believe it can reduce blood pressure.","base":"ADD","answer":"ADDITION","explanation":"Conector básico B2: In addition (además). Ojo con la ortografía: se escribe con una sola T (addition)."}
+        {"sentence":"Garlic helps fight coughs and colds. In _____ , some doctors believe it can reduce blood pressure.","base":"ADD","answer":"ADDITION","explanation":"Conector básico B2: In addition (además). Ojo con la ortografía: se escribe con una sola T (addition)."},
+        {"sentence":"The scheme involved the building of seven kilometres of new, higher _____ further inland.","base":"DEFEND","answer":"DEFENCES","alternatives":["DEFENSES"],"explanation":"El adjetivo comparativo higher y la frase piden un sustantivo en plural: defences (defensas contra inundaciones)."},
+        {"sentence":"This absorbs wave energy, therefore bringing about a _____ reduction in flooding.","base":"SUBSTANCE","answer":"SUBSTANTIAL","explanation":"Delante de un sustantivo (reduction) se necesita un adjetivo: substantial (sustancial / considerable)."},
+        {"sentence":"According to environmental scientists, this _____ project will protect local homes.","base":"AMBITION","answer":"AMBITIOUS","explanation":"Adjetivo derivado de ambition: ambitious (ambicioso). Ambitional no existe."},
+        {"sentence":"This project will also turn the whole area into a _____ nature reserve.","base":"MASS","answer":"MASSIVE","explanation":"Delante de nature reserve se necesita el adjetivo massive (enorme / masivo)."},
+        {"sentence":"The wetland should provide a safe home for some of the country’s most _____ species.","base":"DANGER","answer":"ENDANGERED","explanation":"Colocación clave de examen: endangered species (especies en peligro de extinción)."},
+        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."}
     ],
     "part4": [
         {
@@ -505,6 +517,60 @@ const useOfEnglishData = {
             "answer": "NOT CALL OFF",
             "alternatives": [],
             "explanation": "💡 El Truco: Estructura fija: would rather NOT + infinitivo sin to + Phrasal Verb (call off = cancelar)."
+        },
+        {
+            "original": "‘Would you like to come to my party, Karen?’, the girl said.",
+            "keyword": "INVITED",
+            "before": "The girl",
+            "after": "party.",
+            "answer": "INVITED KAREN TO HER",
+            "alternatives": [],
+            "explanation": "Patrón de estilo indirecto: INVITE + persona + TO + posesivo + party (4 palabras)."
+        },
+        {
+            "original": "Two foolish people took no notice of the warning sign.",
+            "keyword": "PAID",
+            "before": "Two foolish people",
+            "after": "the warning sign.",
+            "answer": "PAID NO ATTENTION TO",
+            "alternatives": [],
+            "explanation": "Estructura fija: take no notice of = PAY NO ATTENTION TO (prestar atención a)."
+        },
+        {
+            "original": "The rescue workers had too little food to feed everyone.",
+            "keyword": "NOT",
+            "before": "There",
+            "after": "the rescue workers to feed everyone.",
+            "answer": "WAS NOT ENOUGH FOOD FOR",
+            "alternatives": ["WASN'T ENOUGH FOOD FOR"],
+            "explanation": "Estructura con incontable: There WAS NOT ENOUGH + sustantivo + FOR + persona."
+        },
+        {
+            "original": "Jack gets no exercise apart from walking to his car.",
+            "keyword": "ONLY",
+            "before": "The",
+            "after": "walking to his car.",
+            "answer": "ONLY EXERCISE JACK GETS IS",
+            "alternatives": ["ONLY EXERCISE THAT JACK GETS IS"],
+            "explanation": "Refraseo con sujeto relativo omitido: The only exercise (that) Jack gets is...."
+        },
+        {
+            "original": "Sonia wanted to be a nurse so she left her job as a teacher.",
+            "keyword": "GAVE",
+            "before": "Sonia",
+            "after": "become a nurse.",
+            "answer": "GAVE UP TEACHING TO",
+            "alternatives": [],
+            "explanation": "Phrasal Verb: GIVE UP + -ING (dejar una profesión) + infinitivo de finalidad (to become)."
+        },
+        {
+            "original": "There’s far less noise in this street than there used to be.",
+            "keyword": "NEARLY",
+            "before": "In this street, there isn’t",
+            "after": "there used to be.",
+            "answer": "NEARLY AS MUCH NOISE AS",
+            "alternatives": [],
+            "explanation": "Comparativa de igualdad negativa: NOT NEARLY AS MUCH + incontable + AS (ni de lejos tanto ruido como)."
         }
     ]
 };

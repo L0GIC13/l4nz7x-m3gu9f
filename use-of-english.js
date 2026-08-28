@@ -26,7 +26,19 @@ const useOfEnglishData = {
         {"sentence":"The internet enables millions of people worldwide to access information about their family history without great _____.","options":["FEE","PRICE","CHARGE","EXPENSE"],"answer":"EXPENSE","explanation":"Colocación fija: without great expense / at great expense (sin gran coste o gasto)."},
         {"sentence":"People who research their family history often _____ that it is a fascinating hobby.","options":["DESCRIBE","DEFINE","REMARK","REGARD"],"answer":"REMARK","explanation":"Remark that sirve para introducir una opinión completa con that. Describe y regard necesitan as (describe it as...)."},
         {"sentence":"Research into students over a three-week period now appears to _____ this.","options":["ASSURE","CONFIRM","DEFEND","JUSTIFY"],"answer":"CONFIRM","explanation":"Confirm va seguido directamente del objeto (confirm this = confirmar esto). Assure necesita una persona detrás (assure someone = tranquilizar a alguien)."},
-        {"sentence":"The results were compared to the illnesses that the students had _____ from during the study.","options":["CAUGHT","AFFECTED","SUFFERED","EXPERIENCED"],"answer":"SUFFERED","explanation":"Preposición dependiente fija: SUFFER FROM (sufrir / padecer una enfermedad). Catch no lleva from (catch a cold)."}
+        {"sentence":"The results were compared to the illnesses that the students had _____ from during the study.","options":["CAUGHT","AFFECTED","SUFFERED","EXPERIENCED"],"answer":"SUFFERED","explanation":"Preposición dependiente fija: SUFFER FROM (sufrir / padecer una enfermedad). Catch no lleva from (catch a cold)."},
+        {
+            "sentence": "Antarctica is the most similar place to Mars, which is why a _____ of thirteen scientists has spent nine months there.",
+            "options": ["CREW", "CAST", "GANG", "TEAM"],
+            "answer": "TEAM",
+            "explanation": "• TEAM: Se usa para grupos de personas que cooperan hacia un objetivo común, especialmente en deportes, investigación o ciencia (a team of scientists).\n• CREW: Se usa para el personal operativo que maneja un vehículo grande (avión, barco, nave espacial).\n• CAST: Reparto o elenco de actores en cine, teatro o TV.\n• GANG: Banda de delincuentes o grupo informal de amigos."
+        },
+        {
+            "sentence": "Living in extreme isolation, the scientists experienced strong feelings of being _____ off from civilisation.",
+            "options": ["BROKEN", "CUT", "KEPT", "TAKEN"],
+            "answer": "CUT",
+            "explanation": "El phrasal verb CUT OFF significa aislado o desconectado del mundo exterior (cut off from civilisation)."
+        }
     ],
     "part2": [
         {"sentence":"Datamac was the greatest machine in the world. Its business _____ facts: it accepted them, stored them and tested them.","answer":"WAS","explanation":"El sujeto es Its business (singular e incontable), por lo que en pasado el verbo to be es WAS."},
@@ -55,7 +67,10 @@ const useOfEnglishData = {
         {"sentence":"Music helped adults in pain, with an even higher figure _____ young people.","answer":"AMONG","alternatives":["FOR"],"explanation":"Para indicar un porcentaje o dato dentro de un grupo se usa AMONG (entre los jóvenes) o FOR (para los jóvenes)."},
         {"sentence":"A remarkable two-thirds of those taking part _____ reported to have said music helped.","answer":"WERE","explanation":"Pasiva en pasado con sujeto plural (two-thirds of those taking part WERE reported... = se informó de que dos tercios...)."},
         {"sentence":"The type of music played makes less difference than might _____ imagined.","answer":"BE","explanation":"Voz pasiva con modal: might BE + participio (might be imagined = de lo que cabría imaginar)."},
-        {"sentence":"Pop music, as _____ as it is fairly gentle and not too loud, helps deal with pain.","answer":"LONG","explanation":"Conector de condición imprescindible en B2: AS LONG AS (siempre y cuando / mientras que)."}
+        {"sentence":"Pop music, as _____ as it is fairly gentle and not too loud, helps deal with pain.","answer":"LONG","explanation":"Conector de condición imprescindible en B2: AS LONG AS (siempre y cuando / mientras que)."},
+        {"sentence":"In the mountains, temperatures range from over 30°C at the lowest points, to well _____ freezing at the highest peaks.","answer":"BELOW","explanation":"La colocación fija para temperaturas negativas es BELOW FREEZING (por debajo del punto de congelación / bajo cero). Well below significa muy por debajo."},
+        {"sentence":"The race has become popular with runners, to _____ an extent that the numbers have had to be limited.","answer":"SUCH","explanation":"Estructura fija de grado/consecuencia: TO SUCH AN EXTENT THAT (hasta tal punto que)."},
+        {"sentence":"It is a very demanding race and only about half of the runners, _____ average, are likely to finish.","answer":"ON","explanation":"Expresión fija de examen: ON AVERAGE (de media / por término medio). Nunca se dice in average."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -83,7 +98,12 @@ const useOfEnglishData = {
         {"sentence":"According to environmental scientists, this _____ project will protect local homes.","base":"AMBITION","answer":"AMBITIOUS","explanation":"Adjetivo derivado de ambition: ambitious (ambicioso). Ambitional no existe."},
         {"sentence":"This project will also turn the whole area into a _____ nature reserve.","base":"MASS","answer":"MASSIVE","explanation":"Delante de nature reserve se necesita el adjetivo massive (enorme / masivo)."},
         {"sentence":"The wetland should provide a safe home for some of the country’s most _____ species.","base":"DANGER","answer":"ENDANGERED","explanation":"Colocación clave de examen: endangered species (especies en peligro de extinción)."},
-        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."}
+        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."},
+        {"sentence":"There will continue to be a strong need for staff in _____ professions such as medicine and nursing.","base":"EXIST","answer":"EXISTING","explanation":"Delante de un sustantivo (professions) necesitas el adjetivo participio: existing (profesiones ya existentes). Existence es un sustantivo."},
+        {"sentence":"There will be no _____ of jobs in science and technology for skilled workers in the future.","base":"SHORT","answer":"SHORTAGE","explanation":"Colocación fija con sustantivo: a shortage of (escasez o falta de algo). Shorter es el comparativo del adjetivo."},
+        {"sentence":"There are great opportunities for individuals able to _____ in newer fields such as biotechnology.","base":"SPECIAL","answer":"SPECIALISE","alternatives":["SPECIALIZE"],"explanation":"Tras la estructura able to se necesita un verbo en infinitivo: specialise in (especializarse en)."},
+        {"sentence":"The rapid _____ of jobs to automated robots will speed up even further in manufacturing.","base":"LOSE","answer":"LOSS","explanation":"Detrás del adjetivo rapid necesitas el sustantivo singular: loss (la pérdida de empleos)."},
+        {"sentence":"As automated check-outs take over, it won’t be long before most supermarket jobs have _____ forever.","base":"APPEAR","answer":"DISAPPEARED","explanation":"Lleva el auxiliar have, por lo que pide un participio con significado negativo (opuesto): disappeared (habrán desaparecido)."}
     ],
     "part4": [
         {
@@ -370,6 +390,7 @@ const useOfEnglishData = {
             "keyword": "SO",
             "before": "She was often",
             "after": "she couldn't go running after school.",
+            "answer": "SO字体TIRED THAT",
             "answer": "SO TIRED THAT",
             "alternatives": [],
             "explanation": "💡 El Truco: Cambia too + adjetivo + to por SO + Adjetivo + THAT + oración negativa."
@@ -571,6 +592,60 @@ const useOfEnglishData = {
             "answer": "NEARLY AS MUCH NOISE AS",
             "alternatives": [],
             "explanation": "Comparativa de igualdad negativa: NOT NEARLY AS MUCH + incontable + AS (ni de lejos tanto ruido como)."
+        },
+        {
+            "original": "Amanda woke up late because she’d forgotten to set her alarm.",
+            "keyword": "HAVE",
+            "before": "If Amanda hadn’t forgotten to set her alarm she",
+            "after": "late.",
+            "answer": "WOULD NOT HAVE WOKEN UP",
+            "alternatives": ["WOULDN'T HAVE WOKEN UP"],
+            "explanation": "3er Condicional (hipótesis en pasado): If + Past Perfect, WOULD NOT HAVE + participio (woken up)."
+        },
+        {
+            "original": "This Internet browser works far better than the others.",
+            "keyword": "NEARLY",
+            "before": "The other Internet browsers don’t",
+            "after": "this one.",
+            "answer": "WORK NEARLY AS WELL AS",
+            "alternatives": [],
+            "explanation": "Comparativa de igualdad negativa con adverbio: NOT + verb + NEARLY AS WELL AS (no funcionan ni de lejos tan bien como)."
+        },
+        {
+            "original": "‘Can I borrow your phone for a minute, Jack?’ asked Emma.",
+            "keyword": "WHETHER",
+            "before": "Emma asked Jack",
+            "after": "phone.",
+            "answer": "WHETHER SHE COULD BORROW HIS",
+            "alternatives": [],
+            "explanation": "Estilo indirecto (Reported Speech): Can cambia a pasado (could) y los pronombres se adaptan (she / his)."
+        },
+        {
+            "original": "Raymond has so much skill as an artist that his drawings look like photographs.",
+            "keyword": "SUCH",
+            "before": "Raymond is",
+            "after": "artist that his drawings look like photographs.",
+            "answer": "SUCH A SKILLED",
+            "alternatives": [],
+            "explanation": "Estructura de énfasis con sustantivo contable: SUCH + A + adjetivo + sustantivo (such a skilled artist)."
+        },
+        {
+            "original": "I wish I hadn’t stayed up late last night.",
+            "keyword": "BED",
+            "before": "I should",
+            "after": "last night.",
+            "answer": "HAVE GONE TO BED EARLIER",
+            "alternatives": ["HAVE GONE TO BED EARLY"],
+            "explanation": "Modal de arrepentimiento en pasado: SHOULD HAVE + participio (should have gone to bed)."
+        },
+        {
+            "original": "Our departure was delayed because another flight arrived late.",
+            "keyword": "CAUSED",
+            "before": "The delay to our departure",
+            "after": "arrival of another flight.",
+            "answer": "WAS CAUSED BY THE LATE",
+            "alternatives": [],
+            "explanation": "Voz pasiva en pasado: WAS CAUSED BY + sintagma nominal (the late arrival)."
         }
     ]
 };

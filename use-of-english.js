@@ -38,6 +38,18 @@ const useOfEnglishData = {
             "options": ["BROKEN", "CUT", "KEPT", "TAKEN"],
             "answer": "CUT",
             "explanation": "El phrasal verb CUT OFF significa aislado o desconectado del mundo exterior (cut off from civilisation)."
+        },
+        {
+            "sentence": "The slackline is not a rope, but a flat piece of strong webbing material. The _____ is to try to walk along the line without losing your balance.",
+            "options": ["AIM", "TARGET", "PLAN", "SCHEDULE"],
+            "answer": "AIM",
+            "explanation": "Estructura fija: The aim is to + infinitivo (el objetivo/propósito es...). Target se usa para objetivos numéricos/financieros, y plan no encaja con la finalidad de un juego."
+        },
+        {
+            "sentence": "As the line is low, there is no great risk of injury if you don’t _____ to stay on the line.",
+            "options": ["REALISE", "ACHIEVE", "MANAGE", "SUCCEED"],
+            "answer": "MANAGE",
+            "explanation": "Patrón de verbo: MANAGE TO + infinitivo (lograr/conseguir hacer algo). Succeed exigiría in + -ing, y realise significa 'darse cuenta'."
         }
     ],
     "part2": [
@@ -103,7 +115,8 @@ const useOfEnglishData = {
         {"sentence":"There will be no _____ of jobs in science and technology for skilled workers in the future.","base":"SHORT","answer":"SHORTAGE","explanation":"Colocación fija con sustantivo: a shortage of (escasez o falta de algo). Shorter es el comparativo del adjetivo."},
         {"sentence":"There are great opportunities for individuals able to _____ in newer fields such as biotechnology.","base":"SPECIAL","answer":"SPECIALISE","alternatives":["SPECIALIZE"],"explanation":"Tras la estructura able to se necesita un verbo en infinitivo: specialise in (especializarse en)."},
         {"sentence":"The rapid _____ of jobs to automated robots will speed up even further in manufacturing.","base":"LOSE","answer":"LOSS","explanation":"Detrás del adjetivo rapid necesitas el sustantivo singular: loss (la pérdida de empleos)."},
-        {"sentence":"As automated check-outs take over, it won’t be long before most supermarket jobs have _____ forever.","base":"APPEAR","answer":"DISAPPEARED","explanation":"Lleva el auxiliar have, por lo que pide un participio con significado negativo (opuesto): disappeared (habrán desaparecido)."}
+        {"sentence":"As automated check-outs take over, it won’t be long before most supermarket jobs have _____ forever.","base":"APPEAR","answer":"DISAPPEARED","explanation":"Lleva el auxiliar have, por lo que pide un participio con significado negativo (opuesto): disappeared (habrán desaparecido)."},
+        {"sentence":"Plastic can also be seen as an environmentally friendly _____ of material.","base":"CHOOSE","answer":"CHOICE","explanation":"Detrás del adjetivo (friendly) necesitas el sustantivo derivado de choose: choice (elección u opción). Choosable no se usa en este contexto."}
     ],
     "part4": [
         {
@@ -390,7 +403,6 @@ const useOfEnglishData = {
             "keyword": "SO",
             "before": "She was often",
             "after": "she couldn't go running after school.",
-            "answer": "SO字体TIRED THAT",
             "answer": "SO TIRED THAT",
             "alternatives": [],
             "explanation": "💡 El Truco: Cambia too + adjetivo + to por SO + Adjetivo + THAT + oración negativa."
@@ -646,6 +658,51 @@ const useOfEnglishData = {
             "answer": "WAS CAUSED BY THE LATE",
             "alternatives": [],
             "explanation": "Voz pasiva en pasado: WAS CAUSED BY + sintagma nominal (the late arrival)."
+        },
+        {
+            "original": "Heidi stayed with a friend when she went to London.",
+            "keyword": "PUT",
+            "before": "A friend",
+            "after": "when she went to London.",
+            "answer": "PUT HEIDI UP",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Phrasal verb separable con objeto intermedio: PUT [alguien] UP = alojar o dar hospedaje a alguien."
+        },
+        {
+            "original": "The singer dislikes people asking for his autograph in the street.",
+            "keyword": "LIKE",
+            "before": "The singer",
+            "after": "people ask him for his autograph in the street.",
+            "answer": "DOES NOT LIKE IT WHEN",
+            "alternatives": ["DOESN'T LIKE IT WHEN"],
+            "explanation": "💡 El Truco: Estructura con like + frase temporal: necesita el pronombre IT: does not like IT when... (no le gusta que/cuando...)."
+        },
+        {
+            "original": "I advised Kylie to enrol at a gym which she did.",
+            "keyword": "ADVICE",
+            "before": "Kylie",
+            "after": "and enrolled at a gym.",
+            "answer": "TOOK MY ADVICE",
+            "alternatives": ["FOLLOWED MY ADVICE"],
+            "explanation": "💡 El Truco: Colocación fija: TAKE / FOLLOW someone's advice (hacer caso o seguir el consejo de alguien)."
+        },
+        {
+            "original": "I had no idea that a famous film star was born in the town.",
+            "keyword": "UNAWARE",
+            "before": "I",
+            "after": "fact that a famous film star was born in the town.",
+            "answer": "WAS UNAWARE OF THE",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Preposición dependiente clave B2: UNAWARE OF (inconsciente de / no saber algo). Nunca se dice unaware about."
+        },
+        {
+            "original": "Simon was the only student to apply for a scholarship.",
+            "keyword": "NONE",
+            "before": "Apart",
+            "after": "the students applied for a scholarship.",
+            "answer": "FROM SIMON, NONE OF",
+            "alternatives": ["FROM SIMON NONE OF"],
+            "explanation": "💡 El Truco: Estructura de exclusión: Apart FROM [persona], NONE OF the... (Aparte de Simón, ninguno de los...)."
         }
     ]
 };

@@ -176,13 +176,13 @@ function startGrammarModule() {
 function renderGrammarCard() {
     const lesson = grammarLessons[currentGrammarLessonIdx];
     const card = lesson.cards[currentGrammarCardIdx];
-    const total = lesson.cards.length;
+    const totalInLesson = lesson.cards.length;
 
     document.getElementById('grammar-lesson-title').textContent = lesson.lessonTitle;
     document.getElementById('grammar-card-current').textContent = currentGrammarCardIdx + 1;
-    document.getElementById('grammar-card-total').textContent = total;
+    document.getElementById('grammar-card-total').textContent = totalInLesson;
 
-    const progress = ((currentGrammarCardIdx + 1) / total) * 100;
+    const progress = ((currentGrammarCardIdx + 1) / totalInLesson) * 100;
     document.getElementById('grammar-progress-bar').style.width = `${progress}%`;
 
     const area = document.getElementById('grammar-card-render-area');
@@ -208,7 +208,7 @@ function renderGrammarCard() {
     } else if (card.type === 'comparison') {
         const genItems = card.general.items.map(it => `
             <div class="compare-row-item">
-                <div style="color:var(--error); font-weight:700;">❌ ${it.wrong}</div>
+                ${it.wrong ? `<div style="color:var(--error); font-weight:700;">❌ ${it.wrong}</div>` : ''}
                 <div style="color:var(--success); font-weight:700;">✅ ${it.right}</div>
                 <div class="item-sub">(${it.note})</div>
             </div>
@@ -268,14 +268,32 @@ function renderGrammarCard() {
     }
 
     area.innerHTML = contentHtml;
-    document.getElementById('grammar-prev-btn').disabled = (currentGrammarCardIdx === 0);
-    document.getElementById('grammar-next-btn').textContent = (currentGrammarCardIdx === total - 1) ? 'Finalizar Repaso 🏁' : 'Siguiente Tarjeta →';
+
+    // Control de navegación entre lecciones y tarjetas
+    const isFirstCardEver = (currentGrammarLessonIdx === 0 && currentGrammarCardIdx === 0);
+    const isLastLesson = (currentGrammarLessonIdx === grammarLessons.length - 1);
+    const isLastCardInLesson = (currentGrammarCardIdx === totalInLesson - 1);
+
+    document.getElementById('grammar-prev-btn').disabled = isFirstCardEver;
+
+    if (isLastLesson && isLastCardInLesson) {
+        document.getElementById('grammar-next-btn').textContent = 'Finalizar Repaso 🏁';
+    } else if (isLastCardInLesson) {
+        document.getElementById('grammar-next-btn').textContent = 'Siguiente Lección →';
+    } else {
+        document.getElementById('grammar-next-btn').textContent = 'Siguiente Tarjeta →';
+    }
 }
 
 function nextGrammarCard() {
-    const total = grammarLessons[currentGrammarLessonIdx].cards.length;
-    if (currentGrammarCardIdx < total - 1) {
+    const totalInLesson = grammarLessons[currentGrammarLessonIdx].cards.length;
+    
+    if (currentGrammarCardIdx < totalInLesson - 1) {
         currentGrammarCardIdx++;
+        renderGrammarCard();
+    } else if (currentGrammarLessonIdx < grammarLessons.length - 1) {
+        currentGrammarLessonIdx++;
+        currentGrammarCardIdx = 0;
         renderGrammarCard();
     } else {
         goHome();
@@ -285,6 +303,10 @@ function nextGrammarCard() {
 function prevGrammarCard() {
     if (currentGrammarCardIdx > 0) {
         currentGrammarCardIdx--;
+        renderGrammarCard();
+    } else if (currentGrammarLessonIdx > 0) {
+        currentGrammarLessonIdx--;
+        currentGrammarCardIdx = grammarLessons[currentGrammarLessonIdx].cards.length - 1;
         renderGrammarCard();
     }
 }

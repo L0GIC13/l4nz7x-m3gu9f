@@ -50,6 +50,12 @@ const useOfEnglishData = {
             "options": ["REALISE", "ACHIEVE", "MANAGE", "SUCCEED"],
             "answer": "MANAGE",
             "explanation": "Patrón de verbo: MANAGE TO + infinitivo (lograr/conseguir hacer algo). Succeed exigiría in + -ing, y realise significa 'darse cuenta'."
+        },
+        {
+            "sentence": "These scarves were an instant success and during the 1950s they were the _____ of fashion, being worn by celebrities.",
+            "options": ["HEIGHT", "PEAK", "TOP", "CROWN"],
+            "answer": "HEIGHT",
+            "explanation": "Colocación fija de examen: the height of fashion (el punto más alto de la moda / el último grito). Peak se usa para temporadas o momentos de máxima actividad (peak hours / peak season)."
         }
     ],
     "part2": [
@@ -82,7 +88,10 @@ const useOfEnglishData = {
         {"sentence":"Pop music, as _____ as it is fairly gentle and not too loud, helps deal with pain.","answer":"LONG","explanation":"Conector de condición imprescindible en B2: AS LONG AS (siempre y cuando / mientras que)."},
         {"sentence":"In the mountains, temperatures range from over 30°C at the lowest points, to well _____ freezing at the highest peaks.","answer":"BELOW","explanation":"La colocación fija para temperaturas negativas es BELOW FREEZING (por debajo del punto de congelación / bajo cero). Well below significa muy por debajo."},
         {"sentence":"The race has become popular with runners, to _____ an extent that the numbers have had to be limited.","answer":"SUCH","explanation":"Estructura fija de grado/consecuencia: TO SUCH AN EXTENT THAT (hasta tal punto que)."},
-        {"sentence":"It is a very demanding race and only about half of the runners, _____ average, are likely to finish.","answer":"ON","explanation":"Expresión fija de examen: ON AVERAGE (de media / por término medio). Nunca se dice in average."}
+        {"sentence":"It is a very demanding race and only about half of the runners, _____ average, are likely to finish.","answer":"ON","explanation":"Expresión fija de examen: ON AVERAGE (de media / por término medio). Nunca se dice in average."},
+        {"sentence":"_____ the invention of expensive gyms with indoor climbing walls, tree-climbing was a cheap and simple way to exercise.","answer":"BEFORE","explanation":"Conector temporal de pasado: BEFORE + sustantivo (antes de la invención de...)."},
+        {"sentence":"These days, if you want to _____ part in an organised tree-climbing activity, you have to wear a helmet.","answer":"TAKE","explanation":"Colocación fija imprescindible en B2: TAKE PART IN (participar en algo)."},
+        {"sentence":"Getting off the ground is the most challenging part. _____ that, it’s about using your legs to drive yourself up.","answer":"AFTER","explanation":"Conector de secuencia temporal: AFTER that (después de eso / a partir de ahí)."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -116,7 +125,8 @@ const useOfEnglishData = {
         {"sentence":"There are great opportunities for individuals able to _____ in newer fields such as biotechnology.","base":"SPECIAL","answer":"SPECIALISE","alternatives":["SPECIALIZE"],"explanation":"Tras la estructura able to se necesita un verbo en infinitivo: specialise in (especializarse en)."},
         {"sentence":"The rapid _____ of jobs to automated robots will speed up even further in manufacturing.","base":"LOSE","answer":"LOSS","explanation":"Detrás del adjetivo rapid necesitas el sustantivo singular: loss (la pérdida de empleos)."},
         {"sentence":"As automated check-outs take over, it won’t be long before most supermarket jobs have _____ forever.","base":"APPEAR","answer":"DISAPPEARED","explanation":"Lleva el auxiliar have, por lo que pide un participio con significado negativo (opuesto): disappeared (habrán desaparecido)."},
-        {"sentence":"Plastic can also be seen as an environmentally friendly _____ of material.","base":"CHOOSE","answer":"CHOICE","explanation":"Detrás del adjetivo (friendly) necesitas el sustantivo derivado de choose: choice (elección u opción). Choosable no se usa en este contexto."}
+        {"sentence":"Plastic can also be seen as an environmentally friendly _____ of material.","base":"CHOOSE","answer":"CHOICE","explanation":"Detrás del adjetivo (friendly) necesitas el sustantivo derivado de choose: choice (elección u opción). Choosable no se usa en este contexto."},
+        {"sentence":"As part of the experiment, there will be a _____ of solo games and competitive games available.","base":"MIX","answer":"MIXTURE","explanation":"Tras la estructura a _____ of se necesita el sustantivo que significa combinación: mixture (una mezcla o variedad de). Mixer es el aparato físico (la batidora / mezclador)."}
     ],
     "part4": [
         {
@@ -237,6 +247,7 @@ const useOfEnglishData = {
             "explanation": "💡 El Truco: Cambia 'didn't feel like' (no tener ganas) por la estructura fija: BE IN THE MOOD TO + Infinitivo."
         },
         {
+            "original": "He practical couldn’t buy the car he wanted because he didn’t have enough money.",
             "original": "He couldn’t buy the car he wanted because he didn’t have enough money.",
             "keyword": "TOO",
             "before": "The car he wanted was",
@@ -703,6 +714,33 @@ const useOfEnglishData = {
             "answer": "FROM SIMON, NONE OF",
             "alternatives": ["FROM SIMON NONE OF"],
             "explanation": "💡 El Truco: Estructura de exclusión: Apart FROM [persona], NONE OF the... (Aparte de Simón, ninguno de los...)."
+        },
+        {
+            "original": "Learning to sew seemed a waste of time to Lisa.",
+            "keyword": "POINT",
+            "before": "Lisa couldn’t",
+            "after": "learning to sew.",
+            "answer": "SEE THE POINT OF",
+            "alternatives": ["SEE ANY POINT IN"],
+            "explanation": "💡 El Truco: Estructura fija: see the point of + -ING (encontrarle sentido o utilidad a hacer algo)."
+        },
+        {
+            "original": "According to the gossip, the actress will be getting married soon.",
+            "keyword": "RUMOURED",
+            "before": "The actress",
+            "after": "getting married soon.",
+            "answer": "IS RUMOURED TO BE",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Pasiva impersonal B2: Subject + IS RUMOURED TO BE + -ING (se rumorea que la actriz va a...)."
+        },
+        {
+            "original": "Pamela said that she regretted sending that angry text message to Harry.",
+            "keyword": "ONLY",
+            "before": "‘If",
+            "after": "that angry text message to Harry’, said Pamela.",
+            "answer": "ONLY I HAD NOT SENT",
+            "alternatives": ["ONLY I HADN'T SENT"],
+            "explanation": "💡 El Truco: Estructura de arrepentimiento en pasado: If only + Past Perfect (ojalá no hubiera enviado...)."
         }
     ]
 };

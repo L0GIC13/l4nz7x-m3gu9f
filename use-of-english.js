@@ -56,6 +56,30 @@ const useOfEnglishData = {
             "options": ["HEIGHT", "PEAK", "TOP", "CROWN"],
             "answer": "HEIGHT",
             "explanation": "Colocación fija de examen: the height of fashion (el punto más alto de la moda / el último grito). Peak se usa para temporadas o momentos de máxima actividad (peak hours / peak season)."
+        },
+        {
+            "sentence": "Taking photos on a smartphone is very popular, though it cannot be _____ that such pictures can be surprisingly good these days.",
+            "options": ["REJECTED", "CONTRADICTED", "DENIED", "REFUSED"],
+            "answer": "DENIED",
+            "explanation": "Estructura fija de examen: it cannot be denied that (no se puede negar que)."
+        },
+        {
+            "sentence": "Serious photography means taking the _____ to do some research and exploring the technical aspects.",
+            "options": ["TROUBLE", "CARE", "EFFORT", "CONCERN"],
+            "answer": "TROUBLE",
+            "explanation": "Colocación clave B2: take the trouble to do something (tomarse la molestia de hacer algo). Effort iría con el verbo make (make an effort)."
+        },
+        {
+            "sentence": "Photography allows you to capture special moments, and it _____ your imagination because you look for original ideas.",
+            "options": ["MOTIVATES", "RENEWS", "STIMULATES", "REACTS"],
+            "answer": "STIMULATES",
+            "explanation": "Colocación típica: stimulate your imagination (estimular la imaginación)."
+        },
+        {
+            "sentence": "Photography transforms how you view things, and you start to see details that you used to miss _____ in the past.",
+            "options": ["UTTERLY", "COMPLETELY", "FULLY", "ABSOLUTELY"],
+            "answer": "COMPLETELY",
+            "explanation": "Colocación fija: miss completely (pasar completamente desapercibido o perderse algo por completo)."
         }
     ],
     "part2": [
@@ -91,7 +115,9 @@ const useOfEnglishData = {
         {"sentence":"It is a very demanding race and only about half of the runners, _____ average, are likely to finish.","answer":"ON","explanation":"Expresión fija de examen: ON AVERAGE (de media / por término medio). Nunca se dice in average."},
         {"sentence":"_____ the invention of expensive gyms with indoor climbing walls, tree-climbing was a cheap and simple way to exercise.","answer":"BEFORE","explanation":"Conector temporal de pasado: BEFORE + sustantivo (antes de la invención de...)."},
         {"sentence":"These days, if you want to _____ part in an organised tree-climbing activity, you have to wear a helmet.","answer":"TAKE","explanation":"Colocación fija imprescindible en B2: TAKE PART IN (participar en algo)."},
-        {"sentence":"Getting off the ground is the most challenging part. _____ that, it’s about using your legs to drive yourself up.","answer":"AFTER","explanation":"Conector de secuencia temporal: AFTER that (después de eso / a partir de ahí)."}
+        {"sentence":"Getting off the ground is the most challenging part. _____ that, it’s about using your legs to drive yourself up.","answer":"AFTER","explanation":"Conector de secuencia temporal: AFTER that (después de eso / a partir de ahí)."},
+        {"sentence":"Don’t make the mistake of eating too little before a marathon, but _____ should you eat a large meal right before running.","answer":"NOR","alternatives":["NEITHER"],"explanation":"Inversión negativa para decir 'tampoco': NOR / NEITHER + verbo auxiliar + sujeto (nor should you eat...)."},
+        {"sentence":"Choosing the right gear is essential: _____ you do, avoid clothes made of cotton and choose technical fabrics instead.","answer":"WHATEVER","explanation":"Estructura fija de advertencia: WHATEVER you do, [imperativo] (Hagas lo que hagas, evita...)."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -126,7 +152,12 @@ const useOfEnglishData = {
         {"sentence":"The rapid _____ of jobs to automated robots will speed up even further in manufacturing.","base":"LOSE","answer":"LOSS","explanation":"Detrás del adjetivo rapid necesitas el sustantivo singular: loss (la pérdida de empleos)."},
         {"sentence":"As automated check-outs take over, it won’t be long before most supermarket jobs have _____ forever.","base":"APPEAR","answer":"DISAPPEARED","explanation":"Lleva el auxiliar have, por lo que pide un participio con significado negativo (opuesto): disappeared (habrán desaparecido)."},
         {"sentence":"Plastic can also be seen as an environmentally friendly _____ of material.","base":"CHOOSE","answer":"CHOICE","explanation":"Detrás del adjetivo (friendly) necesitas el sustantivo derivado de choose: choice (elección u opción). Choosable no se usa en este contexto."},
-        {"sentence":"As part of the experiment, there will be a _____ of solo games and competitive games available.","base":"MIX","answer":"MIXTURE","explanation":"Tras la estructura a _____ of se necesita el sustantivo que significa combinación: mixture (una mezcla o variedad de). Mixer es el aparato físico (la batidora / mezclador)."}
+        {"sentence":"As part of the experiment, there will be a _____ of solo games and competitive games available.","base":"MIX","answer":"MIXTURE","explanation":"Tras la estructura a _____ of se necesita el sustantivo que significa combinación: mixture (una mezcla o variedad de). Mixer es el aparato físico (la batidora / mezclador)."},
+        {"sentence":"Planets outside our solar system were hard to prove, but now, thanks to increasingly _____ equipment, hundreds have been discovered.","base":"SENSE","answer":"SENSITIVE","explanation":"Delante de un sustantivo (equipment) se necesita el adjetivo: sensitive equipment (equipo sensible / de alta precisión)."},
+        {"sentence":"Recent investigations of the nearest star have led to a _____ discovery of a rocky planet.","base":"SIGNIFY","answer":"SIGNIFICANT","explanation":"Delante del sustantivo (discovery) se necesita un adjetivo: significant (significativo / importante). Significance es sustantivo."},
+        {"sentence":"Although the new planet is _____ closer to its star than the Earth is to the Sun, there may still be life.","base":"CONSIDER","answer":"CONSIDERABLY","explanation":"Modifica al adjetivo comparativo (closer), por lo que se requiere un adverbio: considerably closer (considerablemente más cerca)."},
+        {"sentence":"Scientists believe temperatures on the surface will be _____ on whether there is an atmosphere surrounding it.","base":"DEPEND","answer":"DEPENDENT","explanation":"Adjetivo dependiente de la preposición on: be DEPENDENT ON (ser dependiente de / depender de)."},
+        {"sentence":"Travelling to this new planet is totally _____ at the moment because it would take thousands of years.","base":"REAL","answer":"UNREALISTIC","explanation":"Adjetivo con significado negativo: unrealistic (poco realista / inviable). Unreal significa imaginario o ficticio."}
     ],
     "part4": [
         {
@@ -247,7 +278,6 @@ const useOfEnglishData = {
             "explanation": "💡 El Truco: Cambia 'didn't feel like' (no tener ganas) por la estructura fija: BE IN THE MOOD TO + Infinitivo."
         },
         {
-            "original": "He practical couldn’t buy the car he wanted because he didn’t have enough money.",
             "original": "He couldn’t buy the car he wanted because he didn’t have enough money.",
             "keyword": "TOO",
             "before": "The car he wanted was",
@@ -741,6 +771,42 @@ const useOfEnglishData = {
             "answer": "ONLY I HAD NOT SENT",
             "alternatives": ["ONLY I HADN'T SENT"],
             "explanation": "💡 El Truco: Estructura de arrepentimiento en pasado: If only + Past Perfect (ojalá no hubiera enviado...)."
+        },
+        {
+            "original": "Going to bed early has a big effect on how Leila feels the next morning.",
+            "keyword": "DIFFERENCE",
+            "before": "If Leila goes to bed early, it",
+            "after": "how she feels the next morning.",
+            "answer": "MAKES A BIG DIFFERENCE TO",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Colocación con preposición fija: make a big difference TO something (marcar una gran diferencia en algo). En inglés se usa to, nunca in."
+        },
+        {
+            "original": "Last year I decided I wouldn’t eat fast food for lunch any more.",
+            "keyword": "GIVE",
+            "before": "Last year I decided",
+            "after": "fast food for lunch.",
+            "answer": "TO GIVE UP EATING",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Decide pide infinitivo (to give up) y el phrasal verb give up pide gerundio detrás (eating)."
+        },
+        {
+            "original": "Melanie goes jogging and answers her important emails before breakfast.",
+            "keyword": "WELL",
+            "before": "Melanie goes jogging",
+            "after": "her important emails before breakfast.",
+            "answer": "AS WELL AS ANSWERING",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Conector aditivo: AS WELL AS + verbo en -ING (además de responder)."
+        },
+        {
+            "original": "My television needs fixing as soon as possible.",
+            "keyword": "GET",
+            "before": "I must",
+            "after": "as soon as possible.",
+            "answer": "GET MY TELEVISION FIXED",
+            "alternatives": ["GET MY TELEVISION REPAIRED"],
+            "explanation": "💡 El Truco: Estructura causativa: GET + objeto + participio (get my television fixed = mandar arreglar mi tele)."
         }
     ]
 };

@@ -215,5 +215,52 @@ const grammarLessons = [
                 ]
             }
         ]
+    },
+    {
+        lessonTitle: "Lección 5: Concordancia con PEOPLE (Sustantivo Plural)",
+        cards: [
+            {
+                badge: "👥 Sujeto Plural • Writing & Use of English",
+                title: "1. People = THEY (¡Prohibido añadir -S al verbo!)",
+                formula: "PEOPLE + Verbo en plural (sin -S)",
+                desc: "En español «la gente» es singular («la gente quiere»). En inglés, <strong>people es el plural de person</strong> (equivale a <strong>they</strong>). Por tanto, en Present Simple el verbo <strong>NUNCA lleva la -s</strong>:",
+                type: "comparison",
+                general: {
+                    title: "❌ ERROR TÍPICO (Traducción)",
+                    sub: "Tratar 'people' como singular (-s)",
+                    items: [
+                        { wrong: "...people who only wants money...", right: "...people who only want money...", note: "People want (nunca wants)" },
+                        { wrong: "...how many people follows you...", right: "...how many people follow you...", note: "People follow (nunca follows)" }
+                    ]
+                },
+                specific: {
+                    title: "✅ REGLA DE ORO",
+                    sub: "Sustituye mentalmente 'people' por 'they'",
+                    items: [
+                        { right: "Most people <strong>prefer</strong> working from home.", note: "They prefer (no prefers)" },
+                        { right: "People who <strong>live</strong> in cities suffer stress.", note: "They live (no lives)" }
+                    ]
+                }
+            },
+            {
+                badge: "🧠 Machete Visual",
+                title: "2. Person (Singular) vs. People (Plural)",
+                formula: "1 PERSON (He/She) vs. 2+ PEOPLE (They)",
+                desc: "Recuerda esta correspondencia rápida para revisar tus writings antes de entregarlos:",
+                type: "categories",
+                categories: [
+                    {
+                        icon: "👤",
+                        title: "1 PERSON ➔ Lleva -S (He/She)",
+                        tags: ["A person who wants...", "That person follows you...", "One person knows..."]
+                    },
+                    {
+                        icon: "👥",
+                        title: "PEOPLE ➔ SIN -S (They)",
+                        tags: ["People who want...", "People follow you...", "Many people know..."]
+                    }
+                ]
+            }
+        ]
     }
 ];

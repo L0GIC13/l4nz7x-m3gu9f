@@ -80,6 +80,36 @@ const useOfEnglishData = {
             "options": ["UTTERLY", "COMPLETELY", "FULLY", "ABSOLUTELY"],
             "answer": "COMPLETELY",
             "explanation": "Colocación fija: miss completely (pasar completamente desapercibido o perderse algo por completo)."
+        },
+        {
+            "sentence": "For many people, the whole _____ of travel is to visit famous historic cities like Paris or Venice.",
+            "options": ["WORTH", "POINT", "AIM", "PROFIT"],
+            "answer": "POINT",
+            "explanation": "Colocación fija B2: the whole point of significa 'la gracia de' o 'el objetivo principal de'."
+        },
+        {
+            "sentence": "Famous cities attract many tourists, but visitors are not particularly _____ by the large crowds.",
+            "options": ["BOTHERED", "INTERRUPTED", "OFFENDED", "DISTURBED"],
+            "answer": "BOTHERED",
+            "explanation": "Bothered by significa que algo te molesta o incomoda. Disturbed es alterar el orden público o la tranquilidad mental de forma grave."
+        },
+        {
+            "sentence": "For adventurous travellers, a good holiday must _____ unfamiliar experiences and taking risks.",
+            "options": ["POSSESS", "CONSIST", "INVOLVE", "CONCERN"],
+            "answer": "INVOLVE",
+            "explanation": "Involve + sustantivo / -ing significa 'implicar' o 'suponer'. Consist necesitaría la preposición of."
+        },
+        {
+            "sentence": "Independent travellers often prefer not to _____ to a rigid schedule when exploring new places.",
+            "options": ["FIX", "STICK", "FASTEN", "ATTACH"],
+            "answer": "STICK",
+            "explanation": "Phrasal verb clave B2: stick TO a plan / schedule significa 'ceñirse a un plan'."
+        },
+        {
+            "sentence": "These guided tours are specially designed to _____ the particular needs of demanding travellers.",
+            "options": ["PLEASE", "FIT", "AGREE", "MEET"],
+            "answer": "MEET",
+            "explanation": "Colocación fija imprescindible en Cambridge: meet someone's needs significa 'satisfacer o cubrir las necesidades'."
         }
     ],
     "part2": [
@@ -117,7 +147,10 @@ const useOfEnglishData = {
         {"sentence":"These days, if you want to _____ part in an organised tree-climbing activity, you have to wear a helmet.","answer":"TAKE","explanation":"Colocación fija imprescindible en B2: TAKE PART IN (participar en algo)."},
         {"sentence":"Getting off the ground is the most challenging part. _____ that, it’s about using your legs to drive yourself up.","answer":"AFTER","explanation":"Conector de secuencia temporal: AFTER that (después de eso / a partir de ahí)."},
         {"sentence":"Don’t make the mistake of eating too little before a marathon, but _____ should you eat a large meal right before running.","answer":"NOR","alternatives":["NEITHER"],"explanation":"Inversión negativa para decir 'tampoco': NOR / NEITHER + verbo auxiliar + sujeto (nor should you eat...)."},
-        {"sentence":"Choosing the right gear is essential: _____ you do, avoid clothes made of cotton and choose technical fabrics instead.","answer":"WHATEVER","explanation":"Estructura fija de advertencia: WHATEVER you do, [imperativo] (Hagas lo que hagas, evita...)."}
+        {"sentence":"Choosing the right gear is essential: _____ you do, avoid clothes made of cotton and choose technical fabrics instead.","answer":"WHATEVER","explanation":"Estructura fija de advertencia: WHATEVER you do, [imperativo] (Hagas lo que hagas, evita...)."},
+        {"sentence":"_____ it is obviously important to master specific subjects, it is equally worthwhile to learn new skills.","answer":"WHILE","alternatives":["ALTHOUGH"],"explanation":"Conector de contraste al inicio de frase: While / Although significa 'si bien' o 'aunque'. Cambridge suele buscar WHILE cuando contrasta dos ideas paralelas."},
+        {"sentence":"Learning new skills outside your comfort zone is rewarding, and that remains true at _____ age.","answer":"ANY","explanation":"Expresión fija: at ANY age (a cualquier edad). Nunca se dice at every age."},
+        {"sentence":"The best advice is to find the time to _____ on new challenges and step outside your routine.","answer":"TAKE","explanation":"Phrasal verb básico B2: TAKE ON challenges significa 'asumir o aceptar retos'."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -157,7 +190,9 @@ const useOfEnglishData = {
         {"sentence":"Recent investigations of the nearest star have led to a _____ discovery of a rocky planet.","base":"SIGNIFY","answer":"SIGNIFICANT","explanation":"Delante del sustantivo (discovery) se necesita un adjetivo: significant (significativo / importante). Significance es sustantivo."},
         {"sentence":"Although the new planet is _____ closer to its star than the Earth is to the Sun, there may still be life.","base":"CONSIDER","answer":"CONSIDERABLY","explanation":"Modifica al adjetivo comparativo (closer), por lo que se requiere un adverbio: considerably closer (considerablemente más cerca)."},
         {"sentence":"Scientists believe temperatures on the surface will be _____ on whether there is an atmosphere surrounding it.","base":"DEPEND","answer":"DEPENDENT","explanation":"Adjetivo dependiente de la preposición on: be DEPENDENT ON (ser dependiente de / depender de)."},
-        {"sentence":"Travelling to this new planet is totally _____ at the moment because it would take thousands of years.","base":"REAL","answer":"UNREALISTIC","explanation":"Adjetivo con significado negativo: unrealistic (poco realista / inviable). Unreal significa imaginario o ficticio."}
+        {"sentence":"Travelling to this new planet is totally _____ at the moment because it would take thousands of years.","base":"REAL","answer":"UNREALISTIC","explanation":"Adjetivo con significado negativo: unrealistic (poco realista / inviable). Unreal significa imaginario o ficticio."},
+        {"sentence":"Many visitors to London claimed that going to a coffee shop was one of the great _____ of life.","base":"PLEASE","answer":"PLEASURES","explanation":"La estructura one of the great... siempre exige sustantivo en plural: pleasures (placeres)."},
+        {"sentence":"Many drinkers reported that coffee cured illnesses and made them feel much more _____ and alert.","base":"ENERGY","answer":"ENERGETIC","explanation":"Se necesita el adjetivo: energetic (lleno de energía / enérgico). La palabra energical no existe en inglés."}
     ],
     "part4": [
         {
@@ -807,6 +842,42 @@ const useOfEnglishData = {
             "answer": "GET MY TELEVISION FIXED",
             "alternatives": ["GET MY TELEVISION REPAIRED"],
             "explanation": "💡 El Truco: Estructura causativa: GET + objeto + participio (get my television fixed = mandar arreglar mi tele)."
+        },
+        {
+            "original": "Nobody explained why the flight had been delayed.",
+            "keyword": "REASON",
+            "before": "Nobody gave",
+            "after": "to the flight.",
+            "answer": "A REASON FOR THE DELAY",
+            "alternatives": ["ANY REASON FOR THE DELAY"],
+            "explanation": "💡 El Truco: Colocación con preposición fija: give a reason FOR + sustantivo (the delay). En inglés nunca se dice reason about."
+        },
+        {
+            "original": "Last year’s skiing holiday was more exciting than this year’s holiday by the sea.",
+            "keyword": "AS",
+            "before": "This year’s holiday by the sea",
+            "after": "last year’s skiing holiday.",
+            "answer": "WAS NOT AS EXCITING AS",
+            "alternatives": ["WASN'T AS EXCITING AS"],
+            "explanation": "💡 El Truco: Comparativa de igualdad en pasado simple: WAS NOT AS + adjetivo + AS. La frase original usa el pasado (was), por lo que no se debe cambiar a presente perfecto."
+        },
+        {
+            "original": "Maria doesn’t think we should visit the museum because it’s not very interesting.",
+            "keyword": "POINT",
+            "before": "Maria says",
+            "after": "the museum because it’s not very interesting.",
+            "answer": "THERE IS NO POINT IN VISITING",
+            "alternatives": ["THERE'S NO POINT IN VISITING"],
+            "explanation": "💡 El Truco: Estructura fija B2: THERE IS NO POINT IN + gerundio (-ing) = no tiene sentido hacer algo."
+        },
+        {
+            "original": "When I was in Sweden, I managed to learn some Swedish.",
+            "keyword": "PICK",
+            "before": "When I was in Sweden, I was",
+            "after": "some Swedish.",
+            "answer": "ABLE TO PICK UP",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Managed to en pasado equivale a WAS ABLE TO, y aprender un idioma sobre la marcha es el phrasal verb PICK UP."
         }
     ]
 };

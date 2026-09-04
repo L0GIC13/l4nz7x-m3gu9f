@@ -110,6 +110,36 @@ const useOfEnglishData = {
             "options": ["PLEASE", "FIT", "AGREE", "MEET"],
             "answer": "MEET",
             "explanation": "Colocación fija imprescindible en Cambridge: meet someone's needs significa 'satisfacer o cubrir las necesidades'."
+        },
+        {
+            "sentence": "A team of psychologists recently _____ some research on the emotional responses of athletes.",
+            "options": ["CONTROLLED", "CONDUCTED", "DIRECTED", "GUIDED"],
+            "answer": "CONDUCTED",
+            "explanation": "Colocación fija e imprescindible en Cambridge B2: conduct research (llevar a cabo una investigación). Nunca se dice direct ni control research."
+        },
+        {
+            "sentence": "For certain individuals, winning a silver medal may _____ their expectations and leave them delighted.",
+            "options": ["EXCEED", "OVERTAKE", "PASS", "OVERCOME"],
+            "answer": "EXCEED",
+            "explanation": "Colocación fija: exceed expectations (superar las expectativas). Overtake es adelantar físicamente y overcome es superar un obstáculo."
+        },
+        {
+            "sentence": "The athlete who was expected to win easily, but then suffers a _____ defeat, may not celebrate coming second.",
+            "options": ["THIN", "TIGHT", "NARROW", "SLIGHT"],
+            "answer": "NARROW",
+            "explanation": "Colocación típica en deportes y elecciones: a narrow defeat (una derrota por la mínima o por muy poco)."
+        },
+        {
+            "sentence": "To a certain _____, these findings about human psychology are not surprising.",
+            "options": ["EXTENT", "AMOUNT", "RANGE", "LEVEL"],
+            "answer": "EXTENT",
+            "explanation": "Expresión fija de examen: to a certain extent (hasta cierto punto)."
+        },
+        {
+            "sentence": "Silver medallists will almost certainly _____ on what might have happened if they had trained harder.",
+            "options": ["REVIEW", "WONDER", "CONSIDER", "REFLECT"],
+            "answer": "REFLECT",
+            "explanation": "Preposición dependiente fija: reflect ON something (reflexionar o pensar sobre algo). Consider no lleva preposición y wonder va con about o if."
         }
     ],
     "part2": [
@@ -150,7 +180,12 @@ const useOfEnglishData = {
         {"sentence":"Choosing the right gear is essential: _____ you do, avoid clothes made of cotton and choose technical fabrics instead.","answer":"WHATEVER","explanation":"Estructura fija de advertencia: WHATEVER you do, [imperativo] (Hagas lo que hagas, evita...)."},
         {"sentence":"_____ it is obviously important to master specific subjects, it is equally worthwhile to learn new skills.","answer":"WHILE","alternatives":["ALTHOUGH"],"explanation":"Conector de contraste al inicio de frase: While / Although significa 'si bien' o 'aunque'. Cambridge suele buscar WHILE cuando contrasta dos ideas paralelas."},
         {"sentence":"Learning new skills outside your comfort zone is rewarding, and that remains true at _____ age.","answer":"ANY","explanation":"Expresión fija: at ANY age (a cualquier edad). Nunca se dice at every age."},
-        {"sentence":"The best advice is to find the time to _____ on new challenges and step outside your routine.","answer":"TAKE","explanation":"Phrasal verb básico B2: TAKE ON challenges significa 'asumir o aceptar retos'."}
+        {"sentence":"The best advice is to find the time to _____ on new challenges and step outside your routine.","answer":"TAKE","explanation":"Phrasal verb básico B2: TAKE ON challenges significa 'asumir o aceptar retos'."},
+        {"sentence":"Good friends often know things that family members are not aware of, even _____ they have lived together for years.","answer":"IF","alternatives":["AFTER"],"explanation":"Estructura condicional o temporal: even IF (incluso si / aun cuando) o even AFTER (incluso después de haber vivido juntos)."},
+        {"sentence":"Good friends share secrets, and this is probably _____ we feel completely safe in their company.","answer":"BECAUSE","explanation":"Conector causal de explicación: This is probably BECAUSE... (Esto se debe probablemente a que...)."},
+        {"sentence":"True friends always turn to one _____ for suggestions on how to solve their problems.","answer":"ANOTHER","explanation":"Pronombre recíproco fijo: one ANOTHER (el uno al otro / mutuamente), que funciona igual que each other."},
+        {"sentence":"There is a natural tendency _____ close friends to be completely honest with each other.","answer":"FOR","explanation":"Estructura fija: a tendency FOR someone TO do something (tendencia a que alguien haga algo)."},
+        {"sentence":"It is _____ surprise that most close friends have very similar personalities.","answer":"NO","explanation":"Expresión fija B2: It is NO surprise (that)... (no es ninguna sorpresa que...). No lleva artículo a."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -178,7 +213,7 @@ const useOfEnglishData = {
         {"sentence":"According to environmental scientists, this _____ project will protect local homes.","base":"AMBITION","answer":"AMBITIOUS","explanation":"Adjetivo derivado de ambition: ambitious (ambicioso). Ambitional no existe."},
         {"sentence":"This project will also turn the whole area into a _____ nature reserve.","base":"MASS","answer":"MASSIVE","explanation":"Delante de nature reserve se necesita el adjetivo massive (enorme / masivo)."},
         {"sentence":"The wetland should provide a safe home for some of the country’s most _____ species.","base":"DANGER","answer":"ENDANGERED","explanation":"Colocación clave de examen: endangered species (especies en peligro de extinción)."},
-        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."},
+        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector虽although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."},
         {"sentence":"There will continue to be a strong need for staff in _____ professions such as medicine and nursing.","base":"EXIST","answer":"EXISTING","explanation":"Delante de un sustantivo (professions) necesitas el adjetivo participio: existing (profesiones ya existentes). Existence es un sustantivo."},
         {"sentence":"There will be no _____ of jobs in science and technology for skilled workers in the future.","base":"SHORT","answer":"SHORTAGE","explanation":"Colocación fija con sustantivo: a shortage of (escasez o falta de algo). Shorter es el comparativo del adjetivo."},
         {"sentence":"There are great opportunities for individuals able to _____ in newer fields such as biotechnology.","base":"SPECIAL","answer":"SPECIALISE","alternatives":["SPECIALIZE"],"explanation":"Tras la estructura able to se necesita un verbo en infinitivo: specialise in (especializarse en)."},
@@ -192,7 +227,8 @@ const useOfEnglishData = {
         {"sentence":"Scientists believe temperatures on the surface will be _____ on whether there is an atmosphere surrounding it.","base":"DEPEND","answer":"DEPENDENT","explanation":"Adjetivo dependiente de la preposición on: be DEPENDENT ON (ser dependiente de / depender de)."},
         {"sentence":"Travelling to this new planet is totally _____ at the moment because it would take thousands of years.","base":"REAL","answer":"UNREALISTIC","explanation":"Adjetivo con significado negativo: unrealistic (poco realista / inviable). Unreal significa imaginario o ficticio."},
         {"sentence":"Many visitors to London claimed that going to a coffee shop was one of the great _____ of life.","base":"PLEASE","answer":"PLEASURES","explanation":"La estructura one of the great... siempre exige sustantivo en plural: pleasures (placeres)."},
-        {"sentence":"Many drinkers reported that coffee cured illnesses and made them feel much more _____ and alert.","base":"ENERGY","answer":"ENERGETIC","explanation":"Se necesita el adjetivo: energetic (lleno de energía / enérgico). La palabra energical no existe en inglés."}
+        {"sentence":"Many drinkers reported that coffee cured illnesses and made them feel much more _____ and alert.","base":"ENERGY","answer":"ENERGETIC","explanation":"Se necesita el adjetivo: energetic (lleno de energía / enérgico). La palabra energical no existe en inglés."},
+        {"sentence":"Lake Titicaca is famous for a variety of _____ wildlife, including a giant frog.","base":"USUAL","answer":"UNUSUAL","explanation":"Falso amigo con el español: en inglés el prefijo negativo de usual es un- (unusual = insólito / poco común). La palabra inusual no existe."}
     ],
     "part4": [
         {
@@ -878,6 +914,60 @@ const useOfEnglishData = {
             "answer": "ABLE TO PICK UP",
             "alternatives": [],
             "explanation": "💡 El Truco: Managed to en pasado equivale a WAS ABLE TO, y aprender un idioma sobre la marcha es el phrasal verb PICK UP."
+        },
+        {
+            "original": "Some schools were closed for a couple of days because of the heavy snow.",
+            "keyword": "LED",
+            "before": "The heavy snow",
+            "after": "for a couple of days.",
+            "answer": "LED TO SOME SCHOOLS CLOSING",
+            "alternatives": ["LED TO SCHOOLS BEING CLOSED", "LED TO SOME SCHOOLS BEING CLOSED"],
+            "explanation": "💡 El Truco: El verbo lead to (en pasado led to) exige sustantivo o -ING detrás: led to [sujeto] + -ing. Prohibido usar infinitivo (led to close es incorrecto)."
+        },
+        {
+            "original": "Steve doesn’t take much notice of the weather forecast.",
+            "keyword": "ATTENTION",
+            "before": "Steve doesn’t",
+            "after": "the weather forecast.",
+            "answer": "PAY MUCH ATTENTION TO",
+            "alternatives": [],
+            "explanation": "💡 El Truco: La frase ya incluye el auxiliar negativo (doesn't), así que el verbo va en infinitivo base (pay). Además mantén el cuantificador: take much notice → pay much attention to."
+        },
+        {
+            "original": "John wishes he had taken an umbrella to work this morning.",
+            "keyword": "TAKING",
+            "before": "John",
+            "after": "an umbrella to work this morning.",
+            "answer": "REGRETS NOT TAKING",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Estructura fija de arrepentimiento: un deseo en pasado (wish + had done) equivale a REGRET + NOT + verbo en -ING (regrets not taking)."
+        },
+        {
+            "original": "Donna said that apart from Friday, every day last week had been really hot.",
+            "keyword": "EXCEPTION",
+            "before": "Donna said that",
+            "after": "Friday, every day last week had been really hot.",
+            "answer": "WITH THE EXCEPTION OF",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Conector fijo imprescindible en B2: WITH THE EXCEPTION OF equivale exactamente a apart from (con la excepción de)."
+        },
+        {
+            "original": "This is the worst weather we’ve ever had in July.",
+            "keyword": "AS",
+            "before": "We’ve",
+            "after": "as this in July.",
+            "answer": "NEVER HAD SUCH BAD WEATHER",
+            "alternatives": ["NEVER HAD WEATHER AS BAD"],
+            "explanation": "💡 El Truco: De superlativo (the worst) a comparativa: We've NEVER HAD SUCH BAD WEATHER as... (o NEVER HAD WEATHER AS BAD as...)."
+        },
+        {
+            "original": "I’m sure it was unbearably hot where you were staying.",
+            "keyword": "MUST",
+            "before": "The",
+            "after": "unbearable where you were staying.",
+            "answer": "HEAT MUST HAVE BEEN",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Cambio gramatical: de adjetivo (hot) a sustantivo (heat) + deducción en pasado: MUST HAVE BEEN (el calor debió de ser insoportable)."
         }
     ]
 };

@@ -262,5 +262,58 @@ const grammarLessons = [
                 ]
             }
         ]
+    },
+    {
+        lessonTitle: "Lección 6: Prefijos Negativos (Word Formation)",
+        cards: [
+            {
+                badge: "🔤 Part 3 • Reglas Fonéticas",
+                title: "1. El Truco Fonético: R, L y M/P",
+                formula: "R ➔ IR- | L ➔ IL- | M / P ➔ IM-",
+                desc: "En Word Formation, la letra inicial de la palabra base determina el prefijo negativo por asimilación fonética:",
+                type: "categories",
+                categories: [
+                    {
+                        icon: "🔴",
+                        title: "Empieza por R ➔ pon IR-",
+                        tags: ["reversible ➔ irreversible", "responsible ➔ irresponsible", "regular ➔ irregular"]
+                    },
+                    {
+                        icon: "🟡",
+                        title: "Empieza por L ➔ pon IL-",
+                        tags: ["legal ➔ illegal", "logical ➔ illogical", "literate ➔ illiterate"]
+                    },
+                    {
+                        icon: "🔵",
+                        title: "Empieza por M o P ➔ pon IM-",
+                        tags: ["possible ➔ impossible", "patient ➔ impatient", "mature ➔ immature", "polite ➔ impolite"]
+                    }
+                ]
+            },
+            {
+                badge: "⚠️ Falsos Amigos del Español • Part 3",
+                title: "2. Terminados en -ABLE y el Prefijo UN-",
+                formula: "Acaba en -ABLE ➔ Casi siempre UN- (¡Nunca IN-!)",
+                desc: "Por interferencia del español solemos escribir <em>in-</em>, pero en inglés los adjetivos en <strong>-able</strong> y los opuestos habituales llevan <strong>UN-</strong>:",
+                type: "comparison",
+                general: {
+                    title: "❌ ERROR TÍPICO (Traducción)",
+                    sub: "Poner IN- por traducir del español",
+                    items: [
+                        { wrong: "inaffordable", right: "unaffordable", note: "Inasequible" },
+                        { wrong: "incomfortable", right: "uncomfortable", note: "Incómodo" },
+                        { wrong: "inusual", right: "unusual", note: "Insólito / Poco común" }
+                    ]
+                },
+                specific: {
+                    title: "✅ REGLA DE EXAMEN",
+                    sub: "Colocaciones fijas con UN-",
+                    items: [
+                        { right: "<strong>un</strong>affordable / <strong>un</strong>comfortable", note: "Adjetivos en -able" },
+                        { right: "<strong>un</strong>bearable / <strong>un</strong>acceptable", note: "Opuestos habituales" }
+                    ]
+                }
+            }
+        ]
     }
 ];

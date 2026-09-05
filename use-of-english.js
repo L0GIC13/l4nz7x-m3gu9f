@@ -140,6 +140,24 @@ const useOfEnglishData = {
             "options": ["REVIEW", "WONDER", "CONSIDER", "REFLECT"],
             "answer": "REFLECT",
             "explanation": "Preposición dependiente fija: reflect ON something (reflexionar o pensar sobre algo). Consider no lleva preposición y wonder va con about o if."
+        },
+        {
+            "sentence": "If we grow up in a crowded home, the thought of moving to a quiet house alone might never _____ to us.",
+            "options": ["APPEAR", "INSPIRE", "ATTRACT", "INTEREST"],
+            "answer": "APPEAR",
+            "explanation": "Appear to someone significa 'presentarse en la mente de alguien'. Attract no puede ser porque nunca lleva la preposición to detrás cuando se refiere a personas (it attracts us, no it attracts to us)."
+        },
+        {
+            "sentence": "If we identify ourselves with being creative, we might put certain artwork on _____ for others to see.",
+            "options": ["EXHIBITION", "GALLERY", "DISPLAY", "PUBLIC"],
+            "answer": "DISPLAY",
+            "explanation": "Colocación fija clave de B2: ON DISPLAY (expuesto / a la vista). Para usar public tendría que ser con la preposición in (in public)."
+        },
+        {
+            "sentence": "Our home might consist of warm colours, in _____ to stylish, modern but perhaps more uncomfortable furniture.",
+            "options": ["OPPOSITE", "CONTRAST", "VARIETY", "DIFFERENCE"],
+            "answer": "CONTRAST",
+            "explanation": "Estructura fija de examen: IN CONTRAST TO (en contraste con / a diferencia de). Opposite nunca se usa con in ... to."
         }
     ],
     "part2": [
@@ -185,7 +203,10 @@ const useOfEnglishData = {
         {"sentence":"Good friends share secrets, and this is probably _____ we feel completely safe in their company.","answer":"BECAUSE","explanation":"Conector causal de explicación: This is probably BECAUSE... (Esto se debe probablemente a que...)."},
         {"sentence":"True friends always turn to one _____ for suggestions on how to solve their problems.","answer":"ANOTHER","explanation":"Pronombre recíproco fijo: one ANOTHER (el uno al otro / mutuamente), que funciona igual que each other."},
         {"sentence":"There is a natural tendency _____ close friends to be completely honest with each other.","answer":"FOR","explanation":"Estructura fija: a tendency FOR someone TO do something (tendencia a que alguien haga algo)."},
-        {"sentence":"It is _____ surprise that most close friends have very similar personalities.","answer":"NO","explanation":"Expresión fija B2: It is NO surprise (that)... (no es ninguna sorpresa que...). No lleva artículo a."}
+        {"sentence":"It is _____ surprise that most close friends have very similar personalities.","answer":"NO","explanation":"Expresión fija B2: It is NO surprise (that)... (no es ninguna sorpresa que...). No lleva artículo a."},
+        {"sentence":"Blue light helps improve mood, but if we _____ a lot of time staring at screens, it can damage our eyes.","answer":"SPEND","explanation":"Colocación fija: SPEND time doing something (pasar tiempo haciendo algo)."},
+        {"sentence":"The article also points _____ that blue light controls our body clocks and sleep cycles.","answer":"OUT","explanation":"Phrasal verb imprescindible en B2: POINT OUT significa señalar, indicar o resaltar un dato."},
+        {"sentence":"Maybe I’ll switch _____ reading a printed book and give social media a miss before going to sleep.","answer":"TO","explanation":"Preposición dependiente: SWITCH TO significa cambiar o pasarse a otra cosa."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -213,7 +234,7 @@ const useOfEnglishData = {
         {"sentence":"According to environmental scientists, this _____ project will protect local homes.","base":"AMBITION","answer":"AMBITIOUS","explanation":"Adjetivo derivado de ambition: ambitious (ambicioso). Ambitional no existe."},
         {"sentence":"This project will also turn the whole area into a _____ nature reserve.","base":"MASS","answer":"MASSIVE","explanation":"Delante de nature reserve se necesita el adjetivo massive (enorme / masivo)."},
         {"sentence":"The wetland should provide a safe home for some of the country’s most _____ species.","base":"DANGER","answer":"ENDANGERED","explanation":"Colocación clave de examen: endangered species (especies en peligro de extinción)."},
-        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector虽although y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."},
+        {"sentence":"More visitors will come, although it remains _____ whether numbers will have to be limited.","base":"CLEAR","answer":"UNCLEAR","explanation":"El conector aunque (although) y la duda (whether) exigen el adjetivo negativo con prefijo: unclear (no está claro)."},
         {"sentence":"There will continue to be a strong need for staff in _____ professions such as medicine and nursing.","base":"EXIST","answer":"EXISTING","explanation":"Delante de un sustantivo (professions) necesitas el adjetivo participio: existing (profesiones ya existentes). Existence es un sustantivo."},
         {"sentence":"There will be no _____ of jobs in science and technology for skilled workers in the future.","base":"SHORT","answer":"SHORTAGE","explanation":"Colocación fija con sustantivo: a shortage of (escasez o falta de algo). Shorter es el comparativo del adjetivo."},
         {"sentence":"There are great opportunities for individuals able to _____ in newer fields such as biotechnology.","base":"SPECIAL","answer":"SPECIALISE","alternatives":["SPECIALIZE"],"explanation":"Tras la estructura able to se necesita un verbo en infinitivo: specialise in (especializarse en)."},
@@ -228,7 +249,12 @@ const useOfEnglishData = {
         {"sentence":"Travelling to this new planet is totally _____ at the moment because it would take thousands of years.","base":"REAL","answer":"UNREALISTIC","explanation":"Adjetivo con significado negativo: unrealistic (poco realista / inviable). Unreal significa imaginario o ficticio."},
         {"sentence":"Many visitors to London claimed that going to a coffee shop was one of the great _____ of life.","base":"PLEASE","answer":"PLEASURES","explanation":"La estructura one of the great... siempre exige sustantivo en plural: pleasures (placeres)."},
         {"sentence":"Many drinkers reported that coffee cured illnesses and made them feel much more _____ and alert.","base":"ENERGY","answer":"ENERGETIC","explanation":"Se necesita el adjetivo: energetic (lleno de energía / enérgico). La palabra energical no existe en inglés."},
-        {"sentence":"Lake Titicaca is famous for a variety of _____ wildlife, including a giant frog.","base":"USUAL","answer":"UNUSUAL","explanation":"Falso amigo con el español: en inglés el prefijo negativo de usual es un- (unusual = insólito / poco común). La palabra inusual no existe."}
+        {"sentence":"Lake Titicaca is famous for a variety of _____ wildlife, including a giant frog.","base":"USUAL","answer":"UNUSUAL","explanation":"Falso amigo con el español: en inglés el prefijo negativo de usual es un- (unusual = insólito / poco común). La palabra inusual no existe."},
+        {"sentence":"Sunshine was considered a good source of Vitamin D, so doctors' _____ changed too.","base":"ADVISE","answer":"ADVICE","explanation":"Se necesita el sustantivo (advice = consejo). En inglés es incontable, por lo que nunca lleva 's' (advices no existe)."},
+        {"sentence":"Unfortunately, having beach holidays was _____ for many poor families in northern countries.","base":"AFFORDABLE","answer":"UNAFFORDABLE","explanation":"El prefijo negativo de affordable es UN-: unaffordable (inasequible / que no se pueden permitir)."},
+        {"sentence":"In the 1940s, women who were _____ to get a tanned look started to use tea bags to stain their legs.","base":"PATIENT","answer":"IMPATIENT","explanation":"Tras el verbo were se necesita un adjetivo: impatient to do something (impacientes por / deseosas de hacer algo). Patience es el sustantivo."},
+        {"sentence":"Staining their skin with tea was obviously impractical for a _____ of reasons!","base":"VARY","answer":"VARIETY","explanation":"Estructura fija: a variety of (una variedad de). Cuidado con la ortografía: se escribe con e (variety)."},
+        {"sentence":"Medical research also showed the _____ damage that strong sun exposure can cause to skin cells.","base":"REVERSIBLE","answer":"IRREVERSIBLE","explanation":"Las palabras que empiezan por 'r' suelen formar el negativo con el prefijo IR-: irreversible (que no se puede reparar o revertir)."}
     ],
     "part4": [
         {
@@ -968,6 +994,33 @@ const useOfEnglishData = {
             "answer": "HEAT MUST HAVE BEEN",
             "alternatives": [],
             "explanation": "💡 El Truco: Cambio gramatical: de adjetivo (hot) a sustantivo (heat) + deducción en pasado: MUST HAVE BEEN (el calor debió de ser insoportable)."
+        },
+        {
+            "original": "Julio thought people lived in the TV so he regularly talked to them.",
+            "keyword": "WOULD",
+            "before": "Julio",
+            "after": "people on TV because he thought they lived in there.",
+            "answer": "WOULD TALK TO",
+            "alternatives": ["WOULD REGULARLY TALK TO"],
+            "explanation": "💡 El Truco: Para hábitos o costumbres repetidas en el pasado se usa WOULD + verbo en infinitivo (solía hablar con)."
+        },
+        {
+            "original": "Lucia thought that her brother’s toys came alive at night.",
+            "keyword": "BELONGED",
+            "before": "Lucia believed that the toys",
+            "after": "her brother came alive at night.",
+            "answer": "THAT BELONGED TO",
+            "alternatives": ["WHICH BELONGED TO"],
+            "explanation": "💡 El Truco: Necesitas añadir el pronombre relativo (THAT / WHICH) delante del verbo para que la frase tenga sentido: the toys that belonged to her brother (los juguetes que pertenecían a su hermano)."
+        },
+        {
+            "original": "Francesca started telling stories before her brother was born.",
+            "keyword": "SINCE",
+            "before": "Francesca",
+            "after": "before her brother was born.",
+            "answer": "HAS BEEN TELLING STORIES SINCE",
+            "alternatives": ["HAS TOLD STORIES SINCE"],
+            "explanation": "💡 El Truco: Acción que empezó en el pasado y sigue en el presente: Present Perfect Continuous + SINCE (lleva contando historias desde antes de que...)."
         }
     ]
 };

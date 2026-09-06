@@ -158,6 +158,12 @@ const useOfEnglishData = {
             "options": ["OPPOSITE", "CONTRAST", "VARIETY", "DIFFERENCE"],
             "answer": "CONTRAST",
             "explanation": "Estructura fija de examen: IN CONTRAST TO (en contraste con / a diferencia de). Opposite nunca se usa con in ... to."
+        },
+        {
+            "sentence": "You can _____ out lists of ideas online to give you inspiration before writing a film script.",
+            "options": ["CHECK", "FIGURE", "LOOK", "MAKE"],
+            "answer": "CHECK",
+            "explanation": "Phrasal verb fijo: CHECK OUT significa consultar o echar un vistazo. Look necesitaría la preposición at (look at)."
         }
     ],
     "part2": [
@@ -206,7 +212,10 @@ const useOfEnglishData = {
         {"sentence":"It is _____ surprise that most close friends have very similar personalities.","answer":"NO","explanation":"Expresión fija B2: It is NO surprise (that)... (no es ninguna sorpresa que...). No lleva artículo a."},
         {"sentence":"Blue light helps improve mood, but if we _____ a lot of time staring at screens, it can damage our eyes.","answer":"SPEND","explanation":"Colocación fija: SPEND time doing something (pasar tiempo haciendo algo)."},
         {"sentence":"The article also points _____ that blue light controls our body clocks and sleep cycles.","answer":"OUT","explanation":"Phrasal verb imprescindible en B2: POINT OUT significa señalar, indicar o resaltar un dato."},
-        {"sentence":"Maybe I’ll switch _____ reading a printed book and give social media a miss before going to sleep.","answer":"TO","explanation":"Preposición dependiente: SWITCH TO significa cambiar o pasarse a otra cosa."}
+        {"sentence":"Maybe I’ll switch _____ reading a printed book and give social media a miss before going to sleep.","answer":"TO","explanation":"Preposición dependiente: SWITCH TO significa cambiar o pasarse a otra cosa."},
+        {"sentence":"During the festival, people place colourful powder _____ each other’s faces and dance together.","answer":"ON","explanation":"Preposición de lugar: poner algo 'sobre' una superficie o en la cara siempre es ON (place something on)."},
+        {"sentence":"Throwing coloured water adds _____ the fun and excitement of the whole celebration.","answer":"TO","explanation":"Patrón de verbo fijo en B2: ADD TO significa sumar o aumentar (adds to the fun = suma a la diversión)."},
+        {"sentence":"If you have _____ attended this festival before, you will already know how messy it can get.","answer":"EVER","explanation":"En frases condicionales (if) con tiempos perfectos, 'alguna vez' se dice siempre EVER."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -254,7 +263,9 @@ const useOfEnglishData = {
         {"sentence":"Unfortunately, having beach holidays was _____ for many poor families in northern countries.","base":"AFFORDABLE","answer":"UNAFFORDABLE","explanation":"El prefijo negativo de affordable es UN-: unaffordable (inasequible / que no se pueden permitir)."},
         {"sentence":"In the 1940s, women who were _____ to get a tanned look started to use tea bags to stain their legs.","base":"PATIENT","answer":"IMPATIENT","explanation":"Tras el verbo were se necesita un adjetivo: impatient to do something (impacientes por / deseosas de hacer algo). Patience es el sustantivo."},
         {"sentence":"Staining their skin with tea was obviously impractical for a _____ of reasons!","base":"VARY","answer":"VARIETY","explanation":"Estructura fija: a variety of (una variedad de). Cuidado con la ortografía: se escribe con e (variety)."},
-        {"sentence":"Medical research also showed the _____ damage that strong sun exposure can cause to skin cells.","base":"REVERSIBLE","answer":"IRREVERSIBLE","explanation":"Las palabras que empiezan por 'r' suelen formar el negativo con el prefijo IR-: irreversible (que no se puede reparar o revertir)."}
+        {"sentence":"Medical research also showed the _____ damage that strong sun exposure can cause to skin cells.","base":"REVERSIBLE","answer":"IRREVERSIBLE","explanation":"Las palabras que empiezan por 'r' suelen formar el negativo con el prefijo IR-: irreversible (que no se puede reparar o revertir)."},
+        {"sentence":"The Hawa Mahal palace is one of Jaipur's most famous and prominent tourist _____.","base":"ATTRACT","answer":"ATTRACTIONS","explanation":"La estructura one of the... siempre exige un sustantivo en plural: tourist attractions (atracciones turísticas)."},
+        {"sentence":"The ruler had the city painted in pink, which is the traditional Indian colour of _____.","base":"HOSPITABLE","answer":"HOSPITALITY","explanation":"Detrás de la preposición of va un sustantivo: hospitality (hospitalidad). La palabra hospitability no existe en inglés."}
     ],
     "part4": [
         {
@@ -1021,6 +1032,42 @@ const useOfEnglishData = {
             "answer": "HAS BEEN TELLING STORIES SINCE",
             "alternatives": ["HAS TOLD STORIES SINCE"],
             "explanation": "💡 El Truco: Acción que empezó en el pasado y sigue en el presente: Present Perfect Continuous + SINCE (lleva contando historias desde antes de que...)."
+        },
+        {
+            "original": "‘What time did Sofia leave this morning?’ asked Mack.",
+            "keyword": "SET",
+            "before": "Mack wondered what time Sofia",
+            "after": "that morning.",
+            "answer": "HAD SET OFF",
+            "alternatives": ["HAD SET OUT"],
+            "explanation": "💡 El Truco: Phrasal verb para salir de viaje o ponerse en marcha: SET OFF / SET OUT. En estilo indirecto, el pasado cambia a Past Perfect: had set off."
+        },
+        {
+            "original": "‘Don’t bother looking for the Northern Lights tonight’ Marta said.",
+            "keyword": "TOLD",
+            "before": "Marta",
+            "after": "looking for the Northern Lights tonight.",
+            "answer": "TOLD ME NOT TO BOTHER",
+            "alternatives": ["TOLD US NOT TO BOTHER"],
+            "explanation": "💡 El Truco: Estilo indirecto para órdenes o consejos negativos: TOLD + pronombre objeto (me/us) + NOT TO + verbo en infinitivo. Prohibido escribir to don't."
+        },
+        {
+            "original": "‘Please don’t make a mistake when you book our flights’ said Ben.",
+            "keyword": "MESS",
+            "before": "Andy asked Ben",
+            "after": "when he booked their flights.",
+            "answer": "NOT TO MESS UP",
+            "alternatives": ["NOT TO MAKE A MESS"],
+            "explanation": "💡 El Truco: Estructura de petición negativa: asked + persona + NOT TO + phrasal verb MESS UP (meter la pata o cometer un error)."
+        },
+        {
+            "original": "‘Did you see any memorable sunsets on your trip?’ Philip asked.",
+            "keyword": "ACROSS",
+            "before": "Philip asked me",
+            "after": "any memorable sunsets on my trip.",
+            "answer": "IF I HAD COME ACROSS",
+            "alternatives": ["WHETHER I HAD COME ACROSS"],
+            "explanation": "💡 El Truco: Phrasal verb para toparse o encontrarse con algo: COME ACROSS. En estilo indirecto la pregunta de sí/no pasa a: IF/WHETHER + sujeto + Past Perfect (had come across)."
         }
     ]
 };

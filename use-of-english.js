@@ -164,6 +164,18 @@ const useOfEnglishData = {
             "options": ["CHECK", "FIGURE", "LOOK", "MAKE"],
             "answer": "CHECK",
             "explanation": "Phrasal verb fijo: CHECK OUT significa consultar o echar un vistazo. Look necesitaría la preposición at (look at)."
+        },
+        {
+            "sentence": "Monarch butterflies _____ off in Canada and the US, arrive in Mexico in November, and return in March.",
+            "options": ["START", "DEPART", "LAUNCH", "LEAVE"],
+            "answer": "START",
+            "explanation": "Phrasal verb fijo: START OFF significa ponerse en marcha o comenzar un viaje. Depart no se combina con off."
+        },
+        {
+            "sentence": "Monarch butterflies are important for pollination, but they also _____ danger from disease and loss of habitat.",
+            "options": ["UNDERGO", "FACE", "SUFFER", "TAKE"],
+            "answer": "FACE",
+            "explanation": "Colocación fija de examen: FACE danger (afrontar o enfrentarse al peligro). Suffer se usaría con suffer from disease, nunca con la palabra danger."
         }
     ],
     "part2": [
@@ -215,7 +227,11 @@ const useOfEnglishData = {
         {"sentence":"Maybe I’ll switch _____ reading a printed book and give social media a miss before going to sleep.","answer":"TO","explanation":"Preposición dependiente: SWITCH TO significa cambiar o pasarse a otra cosa."},
         {"sentence":"During the festival, people place colourful powder _____ each other’s faces and dance together.","answer":"ON","explanation":"Preposición de lugar: poner algo 'sobre' una superficie o en la cara siempre es ON (place something on)."},
         {"sentence":"Throwing coloured water adds _____ the fun and excitement of the whole celebration.","answer":"TO","explanation":"Patrón de verbo fijo en B2: ADD TO significa sumar o aumentar (adds to the fun = suma a la diversión)."},
-        {"sentence":"If you have _____ attended this festival before, you will already know how messy it can get.","answer":"EVER","explanation":"En frases condicionales (if) con tiempos perfectos, 'alguna vez' se dice siempre EVER."}
+        {"sentence":"If you have _____ attended this festival before, you will already know how messy it can get.","answer":"EVER","explanation":"En frases condicionales (if) con tiempos perfectos, 'alguna vez' se dice siempre EVER."},
+        {"sentence":"As well as having around 50 assistants, Rodin _____ regularly invite friends and art lovers to visit his studio.","answer":"WOULD","explanation":"Para hábitos o costumbres repetidas en el pasado se usa WOULD + infinitivo (equivale a solía invitar)."},
+        {"sentence":"Old photographs were used to renovate the house, so now we can see exactly what it was _____ when Rodin lived there.","answer":"LIKE","explanation":"Estructura fija de descripción: WHAT it was LIKE (cómo era)."},
+        {"sentence":"What’s special is that we can see his famous works, as well as _____ a sense of his daily life.","answer":"GETTING","alternatives":["GAINING","HAVING"],"explanation":"Detrás del conector as well as, el verbo se coloca en gerundio (-ING): as well as getting a sense of."},
+        {"sentence":"Rodin is buried in the grounds of the villa. Needless to _____, this is a place where artists can pay their respects.","answer":"SAY","explanation":"Expresión fija imprescindible en B2: NEEDLESS TO SAY (ni que decir tiene / por supuesto)."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -265,7 +281,9 @@ const useOfEnglishData = {
         {"sentence":"Staining their skin with tea was obviously impractical for a _____ of reasons!","base":"VARY","answer":"VARIETY","explanation":"Estructura fija: a variety of (una variedad de). Cuidado con la ortografía: se escribe con e (variety)."},
         {"sentence":"Medical research also showed the _____ damage that strong sun exposure can cause to skin cells.","base":"REVERSIBLE","answer":"IRREVERSIBLE","explanation":"Las palabras que empiezan por 'r' suelen formar el negativo con el prefijo IR-: irreversible (que no se puede reparar o revertir)."},
         {"sentence":"The Hawa Mahal palace is one of Jaipur's most famous and prominent tourist _____.","base":"ATTRACT","answer":"ATTRACTIONS","explanation":"La estructura one of the... siempre exige un sustantivo en plural: tourist attractions (atracciones turísticas)."},
-        {"sentence":"The ruler had the city painted in pink, which is the traditional Indian colour of _____.","base":"HOSPITABLE","answer":"HOSPITALITY","explanation":"Detrás de la preposición of va un sustantivo: hospitality (hospitalidad). La palabra hospitability no existe en inglés."}
+        {"sentence":"The ruler had the city painted in pink, which is the traditional Indian colour of _____.","base":"HOSPITABLE","answer":"HOSPITALITY","explanation":"Detrás de la preposición of va un sustantivo: hospitality (hospitalidad). La palabra hospitability no existe en inglés."},
+        {"sentence":"There are unwritten rules we should follow when regifting items that we’re _____ with.","base":"SATISFY","answer":"DISSATISFIED","alternatives":["UNSATISFIED"],"explanation":"El opuesto negativo de satisfied es dissatisfied (descontento/insatisfecho). La palabra insatisfied no existe en inglés."},
+        {"sentence":"We should avoid passing on a gift made especially for us, even if we find it _____.","base":"APPEAL","answer":"UNAPPEALING","explanation":"Se necesita un adjetivo negativo: unappealing (poco atractivo o desagradable). Appearable no existe."}
     ],
     "part4": [
         {
@@ -1068,6 +1086,33 @@ const useOfEnglishData = {
             "answer": "IF I HAD COME ACROSS",
             "alternatives": ["WHETHER I HAD COME ACROSS"],
             "explanation": "💡 El Truco: Phrasal verb para toparse o encontrarse con algo: COME ACROSS. En estilo indirecto la pregunta de sí/no pasa a: IF/WHETHER + sujeto + Past Perfect (had come across)."
+        },
+        {
+            "original": "Lily hasn’t taken karate lessons since she was 16.",
+            "keyword": "WHEN",
+            "before": "Lily",
+            "after": "she was 16.",
+            "answer": "LAST TOOK KARATE LESSONS WHEN",
+            "alternatives": ["STOPPED TAKING KARATE LESSONS WHEN"],
+            "explanation": "💡 El Truco: En Cambridge, 'no hacer algo desde hace tiempo' se pasa a afirmativa con LAST + pasado: last took karate lessons when."
+        },
+        {
+            "original": "The outcome of the meeting was unexpected.",
+            "keyword": "TURN",
+            "before": "The meeting didn’t",
+            "after": "we had expected.",
+            "answer": "TURN OUT AS",
+            "alternatives": ["TURN OUT THE WAY"],
+            "explanation": "💡 El Truco: Phrasal verb clave B2: TURN OUT significa resultar o salir de cierta manera (didn't turn out as we had expected)."
+        },
+        {
+            "original": "I was on a skiing trip in the Alps when I met Tom.",
+            "keyword": "WHILE",
+            "before": "I met Tom",
+            "after": "skiing in the Alps.",
+            "answer": "WHILE I WAS",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Delante de deportes con -ING no se usa el verbo do. Se usa directamente el pasado continuo (while I was skiing) o el verbo go (go skiing)."
         }
     ]
 };

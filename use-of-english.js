@@ -176,6 +176,12 @@ const useOfEnglishData = {
             "options": ["UNDERGO", "FACE", "SUFFER", "TAKE"],
             "answer": "FACE",
             "explanation": "Colocación fija de examen: FACE danger (afrontar o enfrentarse al peligro). Suffer se usaría con suffer from disease, nunca con la palabra danger."
+        },
+        {
+            "sentence": "People who prepare for emergencies are known as preppers, and more people are now listening to their _____.",
+            "options": ["VIEWS", "WISHES", "REQUESTS", "DECISIONS"],
+            "answer": "VIEWS",
+            "explanation": "Colocación B2: listen to someone's views significa escuchar las opiniones o puntos de vista de alguien."
         }
     ],
     "part2": [
@@ -231,7 +237,9 @@ const useOfEnglishData = {
         {"sentence":"As well as having around 50 assistants, Rodin _____ regularly invite friends and art lovers to visit his studio.","answer":"WOULD","explanation":"Para hábitos o costumbres repetidas en el pasado se usa WOULD + infinitivo (equivale a solía invitar)."},
         {"sentence":"Old photographs were used to renovate the house, so now we can see exactly what it was _____ when Rodin lived there.","answer":"LIKE","explanation":"Estructura fija de descripción: WHAT it was LIKE (cómo era)."},
         {"sentence":"What’s special is that we can see his famous works, as well as _____ a sense of his daily life.","answer":"GETTING","alternatives":["GAINING","HAVING"],"explanation":"Detrás del conector as well as, el verbo se coloca en gerundio (-ING): as well as getting a sense of."},
-        {"sentence":"Rodin is buried in the grounds of the villa. Needless to _____, this is a place where artists can pay their respects.","answer":"SAY","explanation":"Expresión fija imprescindible en B2: NEEDLESS TO SAY (ni que decir tiene / por supuesto)."}
+        {"sentence":"Rodin is buried in the grounds of the villa. Needless to _____, this is a place where artists can pay their respects.","answer":"SAY","explanation":"Expresión fija imprescindible en B2: NEEDLESS TO SAY (ni que decir tiene / por supuesto)."},
+        {"sentence":"I don’t have any official qualifications in electronics; I’ve just picked things _____ as I’ve gone along.","answer":"UP","explanation":"Phrasal verb imprescindible en B2: PICK UP significa aprender algo sobre la marcha o sin clases formales (pick things up)."},
+        {"sentence":"Next time you have a broken phone or appliance, why not look out _____ a repair event near you?","answer":"FOR","explanation":"Phrasal verb fijo: LOOK OUT FOR significa estar atento a algo o buscar una oportunidad."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -283,7 +291,9 @@ const useOfEnglishData = {
         {"sentence":"The Hawa Mahal palace is one of Jaipur's most famous and prominent tourist _____.","base":"ATTRACT","answer":"ATTRACTIONS","explanation":"La estructura one of the... siempre exige un sustantivo en plural: tourist attractions (atracciones turísticas)."},
         {"sentence":"The ruler had the city painted in pink, which is the traditional Indian colour of _____.","base":"HOSPITABLE","answer":"HOSPITALITY","explanation":"Detrás de la preposición of va un sustantivo: hospitality (hospitalidad). La palabra hospitability no existe en inglés."},
         {"sentence":"There are unwritten rules we should follow when regifting items that we’re _____ with.","base":"SATISFY","answer":"DISSATISFIED","alternatives":["UNSATISFIED"],"explanation":"El opuesto negativo de satisfied es dissatisfied (descontento/insatisfecho). La palabra insatisfied no existe en inglés."},
-        {"sentence":"We should avoid passing on a gift made especially for us, even if we find it _____.","base":"APPEAL","answer":"UNAPPEALING","explanation":"Se necesita un adjetivo negativo: unappealing (poco atractivo o desagradable). Appearable no existe."}
+        {"sentence":"We should avoid passing on a gift made especially for us, even if we find it _____.","base":"APPEAL","answer":"UNAPPEALING","explanation":"Se necesita un adjetivo negativo: unappealing (poco atractivo o desagradable). Appearable no existe."},
+        {"sentence":"Its popularity as a tourist destination increased, and the coral began to suffer _____ amounts of damage.","base":"SUBSTANCE","answer":"SUBSTANTIAL","explanation":"Delante del sustantivo (amounts of damage) necesitas el adjetivo: substantial (sustancial / considerable)."},
+        {"sentence":"The beach will reopen soon, but the number of daily visitors will be _____ controlled to protect the environment.","base":"STRICT","answer":"STRICTLY","explanation":"Modifica al adjetivo/participio (controlled), por lo que se requiere un adverbio: strictly (estrictamente)."}
     ],
     "part4": [
         {
@@ -1113,6 +1123,15 @@ const useOfEnglishData = {
             "answer": "WHILE I WAS",
             "alternatives": [],
             "explanation": "💡 El Truco: Delante de deportes con -ING no se usa el verbo do. Se usa directamente el pasado continuo (while I was skiing) o el verbo go (go skiing)."
+        },
+        {
+            "original": "I first came to live here five years ago.",
+            "keyword": "LIVING",
+            "before": "I",
+            "after": "five years.",
+            "answer": "HAVE BEEN LIVING HERE FOR",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Para una duración o periodo acumulado (five years) se usa siempre FOR. Since solo se usa para puntos de inicio concretos (since 2020)."
         }
     ]
 };

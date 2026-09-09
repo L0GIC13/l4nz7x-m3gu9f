@@ -182,6 +182,12 @@ const useOfEnglishData = {
             "options": ["VIEWS", "WISHES", "REQUESTS", "DECISIONS"],
             "answer": "VIEWS",
             "explanation": "Colocación B2: listen to someone's views significa escuchar las opiniones o puntos de vista de alguien."
+        },
+        {
+            "sentence": "Women began to wear high heels as part of their battle to take _____ traditional male power and authority.",
+            "options": ["UP", "OUT", "ON", "IN"],
+            "answer": "ON",
+            "explanation": "Phrasal verb clave B2: TAKE ON significa enfrentarse a alguien o desafiar un poder (take out significa sacar o eliminar)."
         }
     ],
     "part2": [
@@ -239,7 +245,9 @@ const useOfEnglishData = {
         {"sentence":"What’s special is that we can see his famous works, as well as _____ a sense of his daily life.","answer":"GETTING","alternatives":["GAINING","HAVING"],"explanation":"Detrás del conector as well as, el verbo se coloca en gerundio (-ING): as well as getting a sense of."},
         {"sentence":"Rodin is buried in the grounds of the villa. Needless to _____, this is a place where artists can pay their respects.","answer":"SAY","explanation":"Expresión fija imprescindible en B2: NEEDLESS TO SAY (ni que decir tiene / por supuesto)."},
         {"sentence":"I don’t have any official qualifications in electronics; I’ve just picked things _____ as I’ve gone along.","answer":"UP","explanation":"Phrasal verb imprescindible en B2: PICK UP significa aprender algo sobre la marcha o sin clases formales (pick things up)."},
-        {"sentence":"Next time you have a broken phone or appliance, why not look out _____ a repair event near you?","answer":"FOR","explanation":"Phrasal verb fijo: LOOK OUT FOR significa estar atento a algo o buscar una oportunidad."}
+        {"sentence":"Next time you have a broken phone or appliance, why not look out _____ a repair event near you?","answer":"FOR","explanation":"Phrasal verb fijo: LOOK OUT FOR significa estar atento a algo o buscar una oportunidad."},
+        {"sentence":"Italian food is popular not only in Europe, but also in countries as diverse _____ Brazil and South Africa.","answer":"AS","explanation":"Estructura comparativa fija: AS + adjetivo + AS (as diverse as = tan diversos como). Detrás de as nunca se usa like."},
+        {"sentence":"Both foods are easy to mass-produce, and it may be _____ characteristic which has led to their success.","answer":"THIS","alternatives":["THAT"],"explanation":"Pronombre demostrativo singular (THIS o THAT) para señalar la cualidad que se acaba de explicar en la frase anterior (esta característica)."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -357,7 +365,7 @@ const useOfEnglishData = {
             "after": ", John would not have been angry.",
             "answer": "HAD ARRIVED ON TIME",
             "alternatives": [],
-            "explanation": "💡 El Truco: Es Tercer Condicional. Detrás de IF pon siempre HAD + Verbo en participio (jamás has)."
+            "explanation": "💡 El Truco: Es復Tercer Condicional. Detrás de IF pon siempre HAD + Verbo en participio (jamás has)."
         },
         {
             "original": "Mark can’t wait to use his new computer-games console.",
@@ -1132,6 +1140,42 @@ const useOfEnglishData = {
             "answer": "HAVE BEEN LIVING HERE FOR",
             "alternatives": [],
             "explanation": "💡 El Truco: Para una duración o periodo acumulado (five years) se usa siempre FOR. Since solo se usa para puntos de inicio concretos (since 2020)."
+        },
+        {
+            "original": "‘You shouldn’t go out’ the doctor told me.",
+            "keyword": "ADVISED",
+            "before": "The doctor",
+            "after": "out.",
+            "answer": "ADVISED ME NOT TO GO",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Estilo indirecto para consejos u órdenes negativas: ADVISE + persona + NOT TO + infinitivo. Prohibido escribir to don't."
+        },
+        {
+            "original": "I haven’t seen David for three years.",
+            "keyword": "SINCE",
+            "before": "It’s",
+            "after": "I last saw David.",
+            "answer": "BEEN THREE YEARS SINCE",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Como la frase ya empieza por It’s (It has), no repitas el verbo has: solo pones been + tiempo + since."
+        },
+        {
+            "original": "I broke the teapot by accident.",
+            "keyword": "MEAN",
+            "before": "I",
+            "after": "the teapot.",
+            "answer": "DID NOT MEAN TO BREAK",
+            "alternatives": ["DIDN'T MEAN TO BREAK"],
+            "explanation": "💡 El Truco: La expresión by accident equivale en negativo a: DID NOT MEAN TO + infinitivo (no tuve la intención de romperlo)."
+        },
+        {
+            "original": "It was a mistake not to accept her offer.",
+            "keyword": "TURNED",
+            "before": "I shouldn’t",
+            "after": "her offer.",
+            "answer": "HAVE TURNED DOWN",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Tras un modal en pasado (shouldn't) siempre va HAVE + participio. El phrasal verb para rechazar una oferta es TURN DOWN."
         }
     ]
 };

@@ -218,7 +218,10 @@ const useOfEnglishData = {
             "options": ["MAKE", "GIVE", "HAVE", "DO"],
             "answer": "DO",
             "explanation": "Colocación fija: do the best for someone (hacer o buscar lo mejor para alguien)."
-        }
+        },
+        {"sentence":"Over the past decade, ecotourism has grown _____ almost 400%.","options":["IN","OVER","WITH","BY"],"answer":"BY","explanation":"Regla B2 fija: para aumentos o descensos de porcentaje se usa siempre BY (grown by 400% = crecido en un 400%)."},
+        {"sentence":"All the _____ that are received from this type of tourism help support the local economy.","options":["MONEY","INCOMES","PROFITS","BENEFITS"],"answer":"PROFITS","explanation":"Money es incontable (no encaja con el plural are received). Las ganancias económicas en plural son profits."},
+        {"sentence":"In Kenya, _____ on safari are usually in the morning when lions like to hunt.","options":["JOURNEYS","VISITS","TRIPS","RAIDS"],"answer":"TRIPS","explanation":"Una salida o excursión turística organizada siempre es un trip (safari trips). Raids significa redadas o incursiones militares."}
     ],
     "part2": [
         {"sentence":"Datamac was the greatest machine in the world. Its business _____ facts: it accepted them, stored them and tested them.","answer":"WAS","explanation":"El sujeto es Its business (singular e incontable), por lo que en pasado el verbo to be es WAS."},
@@ -279,7 +282,9 @@ const useOfEnglishData = {
         {"sentence":"Italian food is popular not only in Europe, but also in countries as diverse _____ Brazil and South Africa.","answer":"AS","explanation":"Estructura comparativa fija: AS + adjetivo + AS (as diverse as = tan diversos como). Detrás de as nunca se usa like."},
         {"sentence":"Both foods are easy to mass-produce, and it may be _____ characteristic which has led to their success.","answer":"THIS","alternatives":["THAT"],"explanation":"Pronombre demostrativo singular (THIS o THAT) para señalar la cualidad que se acaba de explicar en la frase anterior (esta característica)."},
         {"sentence":"_____ was my brother who first got me into skateboarding.","answer":"IT","explanation":"Estructura enfática en inglés: IT was [persona] WHO... (Fue mi hermano quien...). Nunca se usa He was my brother who."},
-        {"sentence":"I practised every day and it obviously paid _____ because I beat him in the final competition.","answer":"OFF","explanation":"Phrasal verb imprescindible en B2: PAY OFF significa dar frutos, compensar o valer la pena."}
+        {"sentence":"I practised every day and it obviously paid _____ because I beat him in the final competition.","answer":"OFF","explanation":"Phrasal verb imprescindible en B2: PAY OFF significa dar frutos, compensar o valer la pena."},
+        {"sentence":"He might not be everyone’s favourite, but people _____ highly of his work.","answer":"THINK","alternatives":["SPEAK"],"explanation":"Colocación clave B2: think highly of o speak highly of (tener muy buena opinión de alguien). Like nunca va con highly of."},
+        {"sentence":"His birthday is celebrated on 23rd April, but no one can say _____ sure whether that is right.","answer":"FOR","explanation":"Expresión fija de examen: FOR SURE (con seguridad / seguro). Nunca se dice in sure."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -336,7 +341,13 @@ const useOfEnglishData = {
         {"sentence":"The beach will reopen soon, but the number of daily visitors will be _____ controlled to protect the environment.","base":"STRICT","answer":"STRICTLY","explanation":"Modifica al adjetivo/participio (controlled), por lo que se requiere un adverbio: strictly (estrictamente)."},
         {"sentence":"The very first _____ of the London Eye were made by the architects on their kitchen table.","base":"DRAW","answer":"DRAWINGS","explanation":"Pide sustantivo en plural: drawings (bocetos o dibujos). Draws es la tercera persona del verbo."},
         {"sentence":"Julia found the _____ site for the attraction by drawing a circle on the city map.","base":"IDEA","answer":"IDEAL","explanation":"Delante de un sustantivo (site = lugar) se necesita el adjetivo: ideal (el sitio ideal). La palabra ideative no existe."},
-        {"sentence":"In _____ of their hard work, the couple were awarded a special national honour.","base":"RECOGNISE","answer":"RECOGNITION","explanation":"Estructura fija: in recognition of (en reconocimiento a). La palabra recognisement no existe en inglés."}
+        {"sentence":"In _____ of their hard work, the couple were awarded a special national honour.","base":"RECOGNISE","answer":"RECOGNITION","explanation":"Estructura fija: in recognition of (en reconocimiento a). La palabra recognisement no existe en inglés."},
+        {"sentence":"It’s one of the most beautiful _____ reserves in England.","base":"NATURAL","answer":"NATURE","explanation":"Colocación fija: nature reserve (reserva natural). Se usa el sustantivo nature delante, no un adverbio."},
+        {"sentence":"You can admire this 95-mile stretch of stony and _____ coastline.","base":"SAND","answer":"SANDY","explanation":"Delante de coastline necesitas el adjetivo: sandy (arenoso/a). La palabra sandly no existe."},
+        {"sentence":"You might pick up a fossil and _____ ancient rock formations.","base":"ADMIRATION","answer":"ADMIRE","explanation":"Va enlazado con pick up (might pick up and...), así que necesitas el verbo en infinitivo: admire (admirar). Admirate no existe en inglés."},
+        {"sentence":"Accompanied by _____ guides, visitors can watch local wildlife.","base":"KNOWLEDGE","answer":"KNOWLEDGEABLE","explanation":"Adjetivo para personas que tienen muchos conocimientos o experiencia: knowledgeable (experto / bien informado)."},
+        {"sentence":"The beauty of the area _____ attracts a lot of visitors every year.","base":"OBVIOUS","answer":"OBVIOUSLY","explanation":"Adverbio para modificar el verbo (attracts): obviously. Cuidado con la ortografía: se escribe con una sola 'l' antes de la 'y'."},
+        {"sentence":"Thousands of volunteers join in a _____ clean-up to protect the Jurassic Coast.","base":"COAST","answer":"COASTAL","explanation":"Adjetivo derivado: coastal (costero / de la costa). Coastline es el sustantivo (la línea de costa)."}
     ],
     "part4": [
         {
@@ -837,6 +848,7 @@ const useOfEnglishData = {
         {
             "original": "This Internet browser works far better than the others.",
             "keyword": "NEARLY",
+            "before": "The ancient Internet browsers don’t",
             "before": "The other Internet browsers don’t",
             "after": "this one.",
             "answer": "WORK NEARLY AS WELL AS",
@@ -1220,6 +1232,24 @@ const useOfEnglishData = {
             "answer": "HAD BETTER NOT BE",
             "alternatives": [],
             "explanation": "💡 El Truco: Estructura fija para advertencias: had better NOT + infinitivo sin to (más vale que no estés/llegues). Nunca lleva have ni to."
+        },
+        {
+            "original": "He ate dinner before she got there.",
+            "keyword": "AFTER",
+            "before": "She turned",
+            "after": "his dinner.",
+            "answer": "UP AFTER HE HAD EATEN",
+            "alternatives": ["UP AFTER HE FINISHED"],
+            "explanation": "💡 El Truco: Phrasal verb para llegar: turn up. Como él cenó antes, el sujeto es he y el tiempo es Past Perfect: turned up after he had eaten."
+        },
+        {
+            "original": "I got to the cinema too late to see the beginning of the film.",
+            "keyword": "STARTED",
+            "before": "The film",
+            "after": "time I got to the cinema.",
+            "answer": "HAD ALREADY STARTED BY THE",
+            "alternatives": ["HAD STARTED BY THE"],
+            "explanation": "💡 El Truco: Regla fija de examen: BY THE TIME (para cuando) se combina con Past Perfect (had started) para indicar la acción que ocurrió primero."
         }
     ]
 };

@@ -188,6 +188,36 @@ const useOfEnglishData = {
             "options": ["UP", "OUT", "ON", "IN"],
             "answer": "ON",
             "explanation": "Phrasal verb clave B2: TAKE ON significa enfrentarse a alguien o desafiar un poder (take out significa sacar o eliminar)."
+        },
+        {
+            "sentence": "Some parents invest so much in a career that they cannot _____ to give it up.",
+            "options": ["BEAR", "DECIDE", "HOPE", "EXPECT"],
+            "answer": "BEAR",
+            "explanation": "Estructura fija B2: cannot bear to do something significa 'no soportar la idea de hacer algo'."
+        },
+        {
+            "sentence": "Other parents have to go out to work because of economic _____.",
+            "options": ["REASON", "DUTY", "NECESSITY", "TASK"],
+            "answer": "NECESSITY",
+            "explanation": "Colocación fija: economic necessity (necesidad económica)."
+        },
+        {
+            "sentence": "There are several options when it _____ to choosing childcare.",
+            "options": ["REFERS", "CONCERNS", "TURNS", "COMES"],
+            "answer": "COMES",
+            "explanation": "Expresión clave de examen: when it comes to (a la hora de / cuando se trata de)."
+        },
+        {
+            "sentence": "Parents can choose from professional minders to the kind neighbour _____ the street.",
+            "options": ["OF", "OPPOSITE", "ACROSS", "NEXT TO"],
+            "answer": "ACROSS",
+            "explanation": "Colocación de lugar: across the street (al otro lado de la calle). Opposite no llevaría the street de esta forma."
+        },
+        {
+            "sentence": "If parents want to _____ the best for their children, it is the quality of time that matters.",
+            "options": ["MAKE", "GIVE", "HAVE", "DO"],
+            "answer": "DO",
+            "explanation": "Colocación fija: do the best for someone (hacer o buscar lo mejor para alguien)."
         }
     ],
     "part2": [
@@ -247,7 +277,9 @@ const useOfEnglishData = {
         {"sentence":"I don’t have any official qualifications in electronics; I’ve just picked things _____ as I’ve gone along.","answer":"UP","explanation":"Phrasal verb imprescindible en B2: PICK UP significa aprender algo sobre la marcha o sin clases formales (pick things up)."},
         {"sentence":"Next time you have a broken phone or appliance, why not look out _____ a repair event near you?","answer":"FOR","explanation":"Phrasal verb fijo: LOOK OUT FOR significa estar atento a algo o buscar una oportunidad."},
         {"sentence":"Italian food is popular not only in Europe, but also in countries as diverse _____ Brazil and South Africa.","answer":"AS","explanation":"Estructura comparativa fija: AS + adjetivo + AS (as diverse as = tan diversos como). Detrás de as nunca se usa like."},
-        {"sentence":"Both foods are easy to mass-produce, and it may be _____ characteristic which has led to their success.","answer":"THIS","alternatives":["THAT"],"explanation":"Pronombre demostrativo singular (THIS o THAT) para señalar la cualidad que se acaba de explicar en la frase anterior (esta característica)."}
+        {"sentence":"Both foods are easy to mass-produce, and it may be _____ characteristic which has led to their success.","answer":"THIS","alternatives":["THAT"],"explanation":"Pronombre demostrativo singular (THIS o THAT) para señalar la cualidad que se acaba de explicar en la frase anterior (esta característica)."},
+        {"sentence":"_____ was my brother who first got me into skateboarding.","answer":"IT","explanation":"Estructura enfática en inglés: IT was [persona] WHO... (Fue mi hermano quien...). Nunca se usa He was my brother who."},
+        {"sentence":"I practised every day and it obviously paid _____ because I beat him in the final competition.","answer":"OFF","explanation":"Phrasal verb imprescindible en B2: PAY OFF significa dar frutos, compensar o valer la pena."}
     ],
     "part3": [
         {"sentence":"Being a DIY enthusiast, I was happy to take on the challenge of _____ an old cottage.","base":"MODERN","answer":"MODERNISING","alternatives":["MODERNIZING"],"explanation":"Detrás de la preposición OF siempre va un verbo en gerundio (-ING)."},
@@ -301,7 +333,10 @@ const useOfEnglishData = {
         {"sentence":"There are unwritten rules we should follow when regifting items that we’re _____ with.","base":"SATISFY","answer":"DISSATISFIED","alternatives":["UNSATISFIED"],"explanation":"El opuesto negativo de satisfied es dissatisfied (descontento/insatisfecho). La palabra insatisfied no existe en inglés."},
         {"sentence":"We should avoid passing on a gift made especially for us, even if we find it _____.","base":"APPEAL","answer":"UNAPPEALING","explanation":"Se necesita un adjetivo negativo: unappealing (poco atractivo o desagradable). Appearable no existe."},
         {"sentence":"Its popularity as a tourist destination increased, and the coral began to suffer _____ amounts of damage.","base":"SUBSTANCE","answer":"SUBSTANTIAL","explanation":"Delante del sustantivo (amounts of damage) necesitas el adjetivo: substantial (sustancial / considerable)."},
-        {"sentence":"The beach will reopen soon, but the number of daily visitors will be _____ controlled to protect the environment.","base":"STRICT","answer":"STRICTLY","explanation":"Modifica al adjetivo/participio (controlled), por lo que se requiere un adverbio: strictly (estrictamente)."}
+        {"sentence":"The beach will reopen soon, but the number of daily visitors will be _____ controlled to protect the environment.","base":"STRICT","answer":"STRICTLY","explanation":"Modifica al adjetivo/participio (controlled), por lo que se requiere un adverbio: strictly (estrictamente)."},
+        {"sentence":"The very first _____ of the London Eye were made by the architects on their kitchen table.","base":"DRAW","answer":"DRAWINGS","explanation":"Pide sustantivo en plural: drawings (bocetos o dibujos). Draws es la tercera persona del verbo."},
+        {"sentence":"Julia found the _____ site for the attraction by drawing a circle on the city map.","base":"IDEA","answer":"IDEAL","explanation":"Delante de un sustantivo (site = lugar) se necesita el adjetivo: ideal (el sitio ideal). La palabra ideative no existe."},
+        {"sentence":"In _____ of their hard work, the couple were awarded a special national honour.","base":"RECOGNISE","answer":"RECOGNITION","explanation":"Estructura fija: in recognition of (en reconocimiento a). La palabra recognisement no existe en inglés."}
     ],
     "part4": [
         {
@@ -1176,6 +1211,15 @@ const useOfEnglishData = {
             "answer": "HAVE TURNED DOWN",
             "alternatives": [],
             "explanation": "💡 El Truco: Tras un modal en pasado (shouldn't) siempre va HAVE + participio. El phrasal verb para rechazar una oferta es TURN DOWN."
+        },
+        {
+            "original": "The teacher told us not to be late on Friday.",
+            "keyword": "BETTER",
+            "before": "‘You",
+            "after": "late on Friday,’ the teacher said.",
+            "answer": "HAD BETTER NOT BE",
+            "alternatives": [],
+            "explanation": "💡 El Truco: Estructura fija para advertencias: had better NOT + infinitivo sin to (más vale que no estés/llegues). Nunca lleva have ni to."
         }
     ]
 };

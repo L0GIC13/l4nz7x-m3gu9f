@@ -685,6 +685,12 @@ function openUseOfEnglishMenu() {
 function startUsePart(part) {
     useCurrentPart = part;
     useQuestions = [...useOfEnglishData['part' + part]];
+
+    // Barajar aleatoriamente solo las preguntas de la Part 4
+    if (part === 4) {
+        shuffleArray(useQuestions);
+    }
+
     useIndex = 0;
     useCorrect = 0;
     useWrong = 0;
